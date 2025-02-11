@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 body {
   background: #89909f;
-  padding: 3rem 0 0 3rem;
+  padding: 0 ;
   font-size: 12px;
   height: 100vh;
   margin: 0;
-  overflow: hidden;
+  font-family: 'Inter',sans-serif;
+
 }
 a{
   text-decoration: none;
@@ -12,15 +14,17 @@ a{
 li{
   list-style: none;
 }
+#nav-list{
+  padding-left: 0;
+}
 .site-wrap {
   display: grid;
   grid-template-columns: 280px 1fr;
 }
 
 .site-nav {
-  background: #0b121b;
+  background: #bf0d3e;
   color: white;
-  border-top-left-radius: 2rem;
   display: flex;
   flex-direction: column;
 }
@@ -47,7 +51,7 @@ li{
   left: 0;
   top: 0;
   height: 100%;
-  background: #4676cd;
+  background: #ee3d6e;
   width: 5px;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
@@ -61,20 +65,6 @@ li{
   padding-bottom: 0.4rem;
 }
 
-.note {
-  width: calc(100% - 6rem);
-  margin: 2rem;
-  background: #171c26;
-  border-radius: 10px;
-  padding: 1rem;
-}
-.note h3 {
-  font-size: 0.9rem;
-  margin: 0 0 0.4rem 0;
-}
-.note p {
-  color: #717783;
-}
 
 .name {
   font-size: 1.3rem;
@@ -161,7 +151,7 @@ main > header {
 }
 .nav-tabs a.active span {
   background: #d9dfea;
-  color: #5887d1;
+  color: #bf0d3e;
 }
 .nav-tabs a.active::after {
   content: "";
@@ -170,7 +160,7 @@ main > header {
   left: 0;
   width: 100%;
   height: 4px;
-  background: #457ace;
+  background: #a1153d;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
