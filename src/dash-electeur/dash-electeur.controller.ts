@@ -1,4 +1,5 @@
 import { Controller, Get, Render, Req } from '@nestjs/common';
+import { Request } from 'express';
 
 @Controller('dashboard/electeur')
 export class DashElecteurController {
@@ -6,10 +7,13 @@ export class DashElecteurController {
     @Get()
     @Render('dashboardElecteur') 
     home(@Req() req: Request) {
-        const currentPage = req.url.replace('/dashboard', '');
+        const currentPage = req.url.replace('/dashboard/electeur', '') || '/homecandidat';
+
+        console.log("Parrainer");
 
         return { 
-            titre:"Suivi de parrainage",
-            currentUrl: currentPage || "/home" }; 
+            titre: "Parrainer",
+            currentUrl: currentPage 
+        };
     }
 }

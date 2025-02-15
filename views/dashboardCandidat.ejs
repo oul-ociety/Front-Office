@@ -34,7 +34,7 @@
             </header>
             <% if (currentUrl === "/candidat") { %>
                 <%- include('candidat.ejs') %>
-            <% } else { %>
+            <% } else if(currentUrl === "/home"){ %>
                 <%- include('suiviParrainage.ejs') %>
             <% } %>
             

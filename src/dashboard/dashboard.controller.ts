@@ -9,7 +9,7 @@ export class DashboardController {
         console.log("Current page:", currentPage);
         return { 
             titre:"Suivi de parrainage",
-            currentUrl: currentPage || "/home" }; 
+            currentUrl: currentPage || "/homecandidat" }; 
     }
 }
 

@@ -11,10 +11,24 @@ import { ParrainageModule } from './parrainage/parrainage.module';
 import { DashElecteurModule } from './dash-electeur/dash-electeur.module';
 import { CandidatElecteurService } from './candidat-electeur/candidat-electeur.service';
 import { CandidatElecteurModule } from './candidat-electeur/candidat-electeur.module';
+import { TypeOrmModule } from '@nestjs/typeorm';
 
 
 @Module({
-  imports: [DashboardModule, CandidatModule, ParrainageModule, DashElecteurModule, CandidatElecteurModule, ], 
+  imports: [
+    TypeOrmModule.forRoot({
+      type: 'mysql',
+      host: 'roundhouse.proxy.rlwy.net',
+      port: 58775,
+      username: 'root',
+      password: 'FZHyGjvSHsTjOnQRHHpOXYJpzqWXSjDW',
+      database: 'railway',
+      entities: [],
+      synchronize: true,
+      logging:true
+    }),
+    
+    DashboardModule, CandidatModule, ParrainageModule, DashElecteurModule, CandidatElecteurModule, ], 
   controllers: [AppController, DashboardController, CandidatController, ],
   providers: [AppService, CandidatService, CandidatElecteurService],
 })

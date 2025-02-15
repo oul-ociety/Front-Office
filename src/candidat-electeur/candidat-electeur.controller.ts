@@ -8,6 +8,6 @@ export class CandidatElecteurController {
         console.log("electeur completeeeeee");
         return { 
             titre:"Candidats en lisse",
-            currentUrl: "/suiviCandidat" };
+            currentUrl: "/suivicandidat" };
     }
 }
