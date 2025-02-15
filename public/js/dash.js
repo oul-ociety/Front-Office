@@ -8,21 +8,26 @@ navTabs.forEach((tab) => {
   });
 });
 document.addEventListener("DOMContentLoaded", function () {
-  // Récupère la liste de navigation par son ID
   const navList = document.getElementById("nav-list");
-
-  // Récupère tous les éléments <li> dans la liste
   const navItems = navList.querySelectorAll("li");
 
-  // Ajoute un écouteur d'événement à chaque élément <li>
+  // Vérifie l'URL actuelle et applique "active" à la bonne entrée
+  const currentPath = window.location.pathname;
+  
   navItems.forEach((item) => {
-    item.addEventListener("click", function () {
-      // Supprime la classe "active" de tous les éléments
+    const link = item.querySelector("a");
+
+    if (link && link.getAttribute("href") === currentPath) {
+      item.classList.add("active");
+    }
+
+    item.addEventListener("click", function (event) {
+      // Supprime "active" de tous les éléments
       navItems.forEach((navItem) => {
         navItem.classList.remove("active");
       });
 
-      // Ajoute la classe "active" à l'élément cliqué
+      // Ajoute "active" à l'élément cliqué
       this.classList.add("active");
     });
   });
