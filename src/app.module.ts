@@ -12,6 +12,7 @@ import { DashElecteurModule } from './dash-electeur/dash-electeur.module';
 import { CandidatElecteurService } from './candidat-electeur/candidat-electeur.service';
 import { CandidatElecteurModule } from './candidat-electeur/candidat-electeur.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import * as path from 'path';
 
 
 @Module({
@@ -23,9 +24,8 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       username: 'root',
       password: 'FZHyGjvSHsTjOnQRHHpOXYJpzqWXSjDW',
       database: 'railway',
-      entities: [],
+      entities: [path.join(__dirname, 'entities/**/*.entity{.ts,.js}')],
       synchronize: true,
-      logging:true
     }),
     
     DashboardModule, CandidatModule, ParrainageModule, DashElecteurModule, CandidatElecteurModule, ], 
