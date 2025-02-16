@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/connexion.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="form-container">
+            <form action="./connexion.html" class="form1">
+                <h1>Creation Compte</h1>
+                <input type="number" name="numEl" id="numEl" placeholder="Numéro électeur">
+                <input type="number" name="numCNI" id="numCNI" placeholder="Numero Carte d'identite nationale">
+                <input type="text" name="nom" id="nom" placeholder="Nom de famille">
+                <input type="number" name="numBu" id="numBu" placeholder="Numero Bureau de vote">
+                <input type="tel" name="numTel" id="numTel" placeholder="Numero de telephone">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <button type="submit">Valider</button>
+            </form>
+
+            <form action="./connexion.html" class="form2">
+                <h1>Se connecter</h1>
+                <input type="number" name="numEl" id="numEl" placeholder="Numéro électeur">
+                <input type="number" name="numCNI" id="numCNI" placeholder="Numero Carte d'identite nationale">
+                <input type="number" name="codeA" id="codeA" placeholder="code d'authentification">
+                <button type="submit">Valider</button>
+            </form>
+        </div>    
+
+            <div class="text">
+                <div class="text1">
+                    <h1>Creation Compte</h1>
+                    <p>Vous n'avez pas de compte, creez en un !</p>
+                    <button onclick="switch2()">Creer compte</button>
+                </div>
+
+                <div class="text2">
+                    <h1>Parrainage</h1>
+                    <p>Sans parrainage, pas d’élection : donnez leur une chance de se présenter !</p>
+                    <button onclick="switch1()">Parrainer</button>
+                </div>
+            </div>
+    </div>
+
+    <script src="/js/connexion.js"></script>
+</body>
+</html>
