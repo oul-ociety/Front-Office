@@ -1,28 +1,28 @@
 import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 
-@Entity() // Décorateur pour indiquer que c'est une entité
+@Entity() 
 export class Candidat {
-  @PrimaryGeneratedColumn() // Colonne clé primaire auto-incrémentée
+  @PrimaryGeneratedColumn() 
   id_candidat: number;
 
-  @Column() // Colonne pour le nom
+  @Column() 
   nom: string;
 
-  @Column() // Colonne pour le prénom
+  @Column()
   prenom: string;
 
-  @Column() // Colonne pour l'email
+  @Column() 
   email: string;
 
-  @Column() // Colonne pour le mot de passe
+  @Column()
   mot_de_passe: string;
 
-  @Column() // Colonne pour la date d'inscription
+  @Column() 
   date_inscription: Date;
 
-  @Column() // Colonne pour le statut de la candidature
+  @Column() 
   statut_candidature: string;
 
-  @Column() // Colonne pour le nombre de parrainages
+  @Column() 
   nombre_parrainages: number;
 }
