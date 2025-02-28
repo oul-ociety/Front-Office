@@ -7,13 +7,14 @@ import { CandidatController } from './candidat/candidat.controller';
 import { CandidatService } from './candidat/candidat.service';
 import { CandidatModule } from './candidat/candidat.module';
 import { ParrainageModule } from './parrainage/parrainage.module';
-
 import { DashElecteurModule } from './dash-electeur/dash-electeur.module';
 import { CandidatElecteurService } from './candidat-electeur/candidat-electeur.service';
 import { CandidatElecteurModule } from './candidat-electeur/candidat-electeur.module';
+import { ConnexionController } from './connexion/connexion.controller';
+import { ConnexionModule } from './connexion/connexion.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { Electeur } from './entities/Electeur.entity';
 import * as path from 'path';
-
 
 @Module({
   imports: [
@@ -27,9 +28,23 @@ import * as path from 'path';
       entities: [path.join(__dirname, 'entities/**/*.entity{.ts,.js}')],
       synchronize: true,
     }),
-    
-    DashboardModule, CandidatModule, ParrainageModule, DashElecteurModule, CandidatElecteurModule, ], 
-  controllers: [AppController, DashboardController, CandidatController, ],
-  providers: [AppService, CandidatService, CandidatElecteurService],
+    DashboardModule,
+    CandidatModule,
+    ParrainageModule,
+    DashElecteurModule,
+    CandidatElecteurModule,
+    ConnexionModule, 
+  ], 
+  controllers: [
+    AppController, 
+    DashboardController, 
+    CandidatController, 
+    ConnexionController,
+  ],
+  providers: [
+    AppService, 
+    CandidatService, 
+    CandidatElecteurService,
+  ],
 })
 export class AppModule {}
