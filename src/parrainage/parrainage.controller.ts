@@ -4,7 +4,7 @@ import { Controller, Get, Render, Req } from '@nestjs/common';
 export class ParrainageController {
 
     @Get()
-    @Render('dashboard') // Affiche candidat.ejs au lieu de dashboard.ejs
+    @Render('dashboard') 
     async getManage(@Req() req: Request) {
         console.log("candidat complete");
         return { currentUrl: "/parrainage" };
