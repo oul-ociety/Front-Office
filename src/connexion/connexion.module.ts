@@ -7,11 +7,11 @@ import { ConnexionController } from './connexion.controller';
 
 @Module({
   imports: [
-    TypeOrmModule.forFeature([Electeur]),  // <-- Nécessaire si non géré dans ElecteurModule
-    DashElecteurModule  // <-- Ajout du module qui contient ElecteurRepository
+    TypeOrmModule.forFeature([Electeur]),
+    DashElecteurModule  
   ],
-  providers: [ConnexionService],   // Fournir le service
-  exports: [ConnexionService],     // Exporter pour d'autres modules
+  providers: [ConnexionService],
+  exports: [ConnexionService],     
   controllers: [ConnexionController],
 })
 export class ConnexionModule {}
