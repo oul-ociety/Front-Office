@@ -1,19 +1,24 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Candidat } from 'src/entities/candidat.entity';
+import { Parrainage } from 'src/entities/Parrainage.entity';
+ // Importez l'entité Parrainage
 import { Repository } from 'typeorm';
 
 @Injectable()
 export class DashboardService {
     constructor(
-        @InjectRepository(Candidat)
-        private readonly dashboardRepository: Repository<Candidat>, // 🔹 Injection correcte
-      ) {}
-      async getData() {
-        const data = await this.dashboardRepository.find(); 
-        console.log('Mes candidats',data);
-        
+        @InjectRepository(Parrainage) // Injection du repository Parrainage
+        private readonly parrainageRepository: Repository<Parrainage>,
+    ) {}
+
+    async getParrainage() {
+        // Récupérer les parrainages validés
+        const data = await this.parrainageRepository.find({
+            where: { statut_parrainage: 'validé' },
+            relations: ['candidat', 'electeur'], // Charger les relations avec Candidat et Electeur
+        });
+
+        console.log('Mes Parrainages validés :', data);
         return data;
-      }
-      
+    }
 }

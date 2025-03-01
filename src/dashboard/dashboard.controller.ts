@@ -12,7 +12,9 @@ export class DashboardController {
   async home(@Req() req: Request) {
     const currentPage = req.url.replace('/dashboard', '');
     console.log('Current page:', currentPage);
-    const data = await this.dashService.getData(); 
+    const data = await this.dashService.getParrainage(); 
+    console.log("Parrainage", data);
+    
 
     return { 
       data, 
