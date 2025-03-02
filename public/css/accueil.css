@@ -80,10 +80,20 @@
 }
 
 .hero {
-    padding-top: 100px;
+    padding-top: 80px;
     position: relative;
     height: 100vh;
     overflow: hidden;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 .hero-content {
