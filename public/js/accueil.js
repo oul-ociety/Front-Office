@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Menu mobile
+
     const menuToggle = document.querySelector('.menu-toggle');
     const navLinks = document.querySelector('.nav-links');
 
@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', function() {
         navLinks.classList.toggle('active');
     });
 
-    // Compte à rebours
     const countdown = () => {
         const targetDate = new Date('2025-02-27T00:00:00').getTime();
         
@@ -32,7 +31,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     countdown();
 
-    // Animation au défilement
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -43,7 +41,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
 
-    // Défilement fluide
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();
@@ -57,7 +54,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Animation navbar au scroll
     window.addEventListener('scroll', () => {
         const navbar = document.querySelector('.navbar');
         if (window.scrollY > 50) {

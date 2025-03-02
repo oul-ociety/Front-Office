@@ -79,7 +79,6 @@
     cursor: pointer;
 }
 
-/* Hero Section */
 .hero {
     padding-top: 100px;
     position: relative;
@@ -217,7 +216,6 @@
     box-shadow: 0 5px 25px rgba(0,0,0,0.1);
 }
 
-/* Animations */
 .animate-on-scroll {
     opacity: 0;
     transform: translateY(30px);
