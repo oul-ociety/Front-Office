@@ -7,7 +7,7 @@ export class ConnexionController {
         private readonly ConnexionService : ConnexionService,
     ){}
     @Get()
-    @Render('connexion') // Assurez-vous que le fichier "acceuil.ejs" existe dans "views"
+    @Render('connexionElecteur') // Assurez-vous que le fichier "acceuil.ejs" existe dans "views"
     async connexion() {
         const idElecteur=1;
         const data=await this.ConnexionService.getCandidat(idElecteur);
