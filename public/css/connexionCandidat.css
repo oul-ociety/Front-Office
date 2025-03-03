@@ -1,0 +1,350 @@
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.container{
+    position: relative;
+    top: 170px;  
+    display: flex;
+    height: 500px;
+    transition: 0.3s ease;
+    left: 5%;
+    width: 90vw;
+    box-shadow: 0 0 1em gray;
+}
+
+
+
+.form-container{
+    position: relative;
+    width: 50%;
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.3s ease;
+}
+
+
+.form1, .form2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    transition: 0.3s ease;
+    text-align: center;
+}
+
+
+
+
+.form1 h1, .form2 h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+
+.form1 input, .form2 input{
+    padding: 10px;
+    width: 90%;
+    margin: 10px;
+    background-color: rgb(226, 226, 226);
+    border: 1px;
+    border-radius: 5px;
+}
+
+
+
+.form1 button, .form2 button{
+    padding: 10px 25px;
+    border-radius: 1pc;
+    border: 1px solid white;
+    background-color:RGB(0, 200, 200) ;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: 0.3s ease;
+}
+
+
+
+.form1 button:hover, .form2 button:hover{
+    cursor: pointer;
+    scale: 1.1;
+    padding: 10px 35px;
+}
+
+
+
+
+.form2{
+    display: none;
+}
+
+
+/*
+.form2 h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+
+.form2 input{
+    padding: 10px;
+    width: 90%;
+    margin: 10px;
+    background-color: rgb(226, 226, 226);
+    border: 1px;
+    border-radius: 5px;
+}
+
+
+
+.form2 button{
+    padding: 10px 25px;
+    border-radius: 1pc;
+    border: 1px solid white;
+    background-color:RGB(0, 200, 200) ;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: 0.3s ease;
+}
+
+
+
+.form2 button:hover{
+    cursor: pointer;
+    scale: 1.1;
+    padding: 10px 35px;
+} */
+
+
+
+.text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: white;
+    background-color:RGB(0, 200, 200);
+    text-align: center;
+    justify-content: center;
+    transition: 0.3s ease;
+    z-index: 2;
+}
+
+
+
+.text h1{
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+
+.text p{
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+
+
+
+.text button, .form4 button{
+    padding: 10px 25px;
+    border-radius: 1pc;
+    border: 1px solid white;
+    background-color:RGB(0, 200, 200) ;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+
+
+.text button:hover, .form4 button:hover{
+    cursor: pointer;
+    scale: 1.1;
+    padding: 10px 35px;
+}
+
+
+
+.text1{
+    display: none;
+}
+
+
+
+
+
+.popup2{
+    position: absolute;
+    width: 100vw;
+    height: 0vh;
+    border: 3px blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.634);
+    transition: 0.3s ease;
+    visibility: hidden;
+}
+
+
+
+.form4{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 660px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 1em gray;
+}
+
+
+
+
+.form4 input{
+    padding: 10px;
+    width: 70%;
+    background-color: rgb(226, 226, 226);
+    border: 1px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+.form4{
+    width: 50vw;
+}
+
+
+
+.form4 h4{
+    margin: 7px;
+}
+
+
+
+.form4 input{
+    margin-top: 10px;
+}
+
+
+
+
+.form4 label{
+    font-weight: bold;
+}
+
+
+
+
+.close{
+    position: absolute;
+    font-size: 35px;
+    right: 0;
+    top: 0;
+    transition: 0.3s ease;
+}
+
+
+
+.close:hover{
+    cursor: pointer;
+    color:RGB(0, 200, 200) ;
+}
+
+
+@keyframes switch1 {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+@keyframes switch2 {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+
+
+@keyframes switch3 {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(-0%);
+    }
+}
+
+
+
+@keyframes switch4 {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+
+
+@keyframes diseappear{
+    0% {
+        opacity: 1;
+        }
+
+    100% {
+        opacity: 0;
+        }
+}
+
+
+
+@keyframes appear{
+    0% {
+        opacity: 0;
+        }
+
+    100% {
+           opacity: 1;
+        }
+}
+

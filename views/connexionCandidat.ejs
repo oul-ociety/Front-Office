@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/connexionCandidat.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="form-container">
+            <form action="./connexionCandidat.ejs" class="form1">
+                <h1>S'enregistrer</h1>
+                <input type="number" name="numEl" id="numEl" placeholder="Numéro électeur du candidat">
+                <button type="button" onclick="OpenPopup2()">Valider</button>
+            </form>
+
+            <form action="./connexionCandidat.ejs" class="form2">
+                <h1>Se connecter</h1>
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="number" name="codeA" id="codeA" placeholder="code d'authentification">
+                <button type="submit">Valider</button>
+            </form>
+        </div>    
+
+            <div class="text">
+                <div class="text1">
+                    <h1>S'enregistrer</h1>
+                    <p>Vous etes candidat ? Enregistrez-vous !</p>
+                    <button onclick="switch2()">S'enrigistrer</button>
+                </div>
+
+                <div class="text2">
+                    <h1>Se Connecter</h1>
+                    <p>Connectez-vous pour voir l'evolution de vos parrainage ^^</p>
+                    <button onclick="switch1()">Se Connecter</button>
+                </div>
+            </div>
+    </div>
+
+    <div class="popup2">
+        <form action="./connexionCandidat.ejs" class="form4">
+            <ion-icon name="close" class="close" onclick="ClosePopup2()"></ion-icon>
+            <h1>Infos</h1>
+            <h4>Nom : .............................................</h4>
+            <h4>Prenom : Aefefefefergfregrgrfdfg Stgrrererfrgrgrg Jgrgrfrgregregre</h4>
+            <h4>Date de naissance : .............................................</h4>
+            <input type="email" name="email" id="email" placeholder="Email">
+            <input type="number" name="numTel" id="numTel" placeholder="Numéro de téléphone">
+            <input type="text" name="nomParti" id="nomParti" placeholder="Nom Partie Politique">
+            <input type="text" name="slogan" id="slogan" placeholder="Slogan">
+            <label for="photo">Photo</label>
+            <input type="file" name="photo" id="photo" placeholder="Photo du Candidat">
+            <input type="text" name="3couleurs" id="3couleurs" placeholder="3 couleurs du parti">
+            <input type="url" name="URLpage" id="URLpage" placeholder="URL page du candidat">
+            <button type="submit">Confirmer</button>
+        </form>
+    </div>
+    
+    <script src="/js/connexion.js"></script>
+</body>
+</html>
