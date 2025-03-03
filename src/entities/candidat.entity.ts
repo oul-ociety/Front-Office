@@ -1,46 +1,57 @@
-import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
+import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from 'typeorm';
+import { Parrainage } from './Parrainage.entity';
 
-@Entity() 
+
+@Entity('Candidat')
 export class Candidat {
-  @PrimaryGeneratedColumn() 
-  id_candidat: number;
+    @PrimaryGeneratedColumn()
+    id_candidat: number;
 
-  @Column() 
-  nom: string;
+    @Column()
+    nombre_parrainages: number;
 
-  @Column()
-  prenom: string;
+    @Column()
+    nom: string;
 
-  @Column() 
-  email: string;
+    @Column()
+    prenom: string;
 
-  @Column({ length: 20, nullable: true })
-  numTel: string;
+    @Column()
+    email: string;
 
-  @Column({ length: 255, nullable: true })
-  numEL: string;
+    @Column({ type: 'timestamp' })
+    date_inscription: Date;
 
-  @Column({ length: 255, nullable: true })
-  numCNI: string;
+    @Column({ nullable: true })
+    numEl: number;
 
-  @Column() 
-  date_inscription: Date;
+    @Column({ nullable: true })
+    nomPartie: string;
 
-  @Column() 
-  statut_candidature: string;
+    @Column({ type: 'text', nullable: true })
+    slogan: string;
 
-  @Column() 
-  nombre_parrainages: number;
+    @Column({ nullable: true })
+    URL: string;
 
-  @Column({length: 255, nullable: true})
-  nomPartie : string;
+    @Column({ type: 'date', nullable: true })
+    ddn: Date;
 
-  @Column({length: 255, nullable: true})
-  slogan : string;
+    @Column({ nullable: true })
+    codeAuth: string;
 
-  @Column({length: 255, nullable: true})
-  codeAuth : string;
+    @Column({ name: '3couleurs', nullable: true })
+    troisCouleurs: string;
 
-  @Column({length: 255, nullable: true})
-  photo : string;
+    @Column({ nullable: true })
+    photo: string;
+
+    @Column({
+        type: 'enum',
+        enum: ['validé', 'en_attente', 'rejeté'],
+    })
+    statut_candidature: 'validé' | 'en_attente' | 'rejeté';
+
+    @OneToMany(() => Parrainage, parrainage => parrainage.candidat)
+    parrainages: Parrainage[];
 }

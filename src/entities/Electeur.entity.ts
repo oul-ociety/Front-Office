@@ -1,6 +1,8 @@
-import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
+import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from 'typeorm';
+import { Parrainage } from './Parrainage.entity';
 
-@Entity()
+
+@Entity('electeur')
 export class Electeur {
     @PrimaryGeneratedColumn()
     id_electeur: number;
@@ -14,11 +16,11 @@ export class Electeur {
     @Column({ length: 100, unique: true })
     email: string;
 
-    @Column()
+    @Column({ type: 'datetime' })
     date_inscription: Date;
 
-    @Column({ type: 'tinyint', width: 1, default: 0 })
-    statut_validation: number;
+    @Column({ type: 'tinyint' })
+    statut_validation: boolean;
 
     @Column({ type: 'date', nullable: true })
     ddn: Date;
@@ -38,6 +40,9 @@ export class Electeur {
     @Column({ length: 255, nullable: true })
     numCNI: string;
 
-    @Column({ type: 'tinyint', width: 1, default: 0 })
-    statut_parrainage: number;
+    @Column({ type: 'tinyint' })
+    statut_parrainage: boolean;
+
+    @OneToMany(() => Parrainage, parrainage => parrainage.electeur)
+    parrainages: Parrainage[];
 }

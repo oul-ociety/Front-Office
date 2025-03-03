@@ -2,10 +2,10 @@ import { Module } from '@nestjs/common';
 import { DashboardService } from './dashboard.service';
 import { DashboardController } from './dashboard.controller';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { Candidat } from 'src/entities/candidat.entity';
+import { Parrainage } from 'src/entities/Parrainage.entity';
 
 @Module({
-  imports: [TypeOrmModule.forFeature([Candidat])],
+  imports: [TypeOrmModule.forFeature([Parrainage])],
   providers: [DashboardService], 
   controllers: [DashboardController],
   exports: [DashboardService], 

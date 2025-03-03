@@ -2,9 +2,7 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { DashboardController } from './dashboard/dashboard.controller';
-import { DashboardModule } from './dashboard/dashboard.module';
 import { CandidatController } from './candidat/candidat.controller';
-import { CandidatService } from './candidat/candidat.service';
 import { CandidatModule } from './candidat/candidat.module';
 import { ParrainageModule } from './parrainage/parrainage.module';
 import { DashElecteurModule } from './dash-electeur/dash-electeur.module';
@@ -15,6 +13,7 @@ import { ConnexionModule } from './connexion/connexion.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Electeur } from './entities/Electeur.entity';
 import * as path from 'path';
+import { DashboardModule } from './dashboard/dashboard.module';
 
 @Module({
   imports: [
@@ -29,11 +28,11 @@ import * as path from 'path';
       synchronize: true,
     }),
     DashboardModule,
-    CandidatModule,
+    CandidatModule, // Only one import of CandidatModule
     ParrainageModule,
     DashElecteurModule,
     CandidatElecteurModule,
-    ConnexionModule, 
+    ConnexionModule,
   ], 
   controllers: [
     AppController, 
@@ -43,7 +42,6 @@ import * as path from 'path';
   ],
   providers: [
     AppService, 
-    CandidatService, 
     CandidatElecteurService,
   ],
 })
