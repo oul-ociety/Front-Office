@@ -4,6 +4,8 @@ var form2 = document.querySelector('.form2');
 var text = document.querySelector('.text');
 var text1 = document.querySelector('.text1');
 var text2 = document.querySelector('.text2');
+var popup1 = document.querySelector('.popup1');
+var popup2 = document.querySelector('.popup2');
 
 
 
@@ -36,3 +38,48 @@ function switch2(){
     text1.style.display='none';
     form2.style.display='none';
 }
+
+
+
+
+
+function OpenPopup(popup){
+    popup.style.height='100vh';
+    popup.style.opacity='1';
+    popup.style.visibility='visible';
+}
+
+
+
+function ClosePopup(popup){
+    popup.style.height='0vh';
+    popup.style.opacity='0';
+    popup.style.visibility='hidden';
+}
+
+
+
+
+function OpenPopup1(){
+    OpenPopup(popup1);
+}
+
+
+
+function ClosePopup1(){
+    ClosePopup(popup1);
+}
+
+
+
+function OpenPopup2(){
+    OpenPopup(popup2);
+}
+
+
+
+function ClosePopup2(){
+    ClosePopup(popup2);
+}
+
+

@@ -14,8 +14,14 @@ export class Candidat {
   @Column() 
   email: string;
 
-  @Column()
-  mot_de_passe: string;
+  @Column({ length: 20, nullable: true })
+  numTel: string;
+
+  @Column({ length: 255, nullable: true })
+  numEL: string;
+
+  @Column({ length: 255, nullable: true })
+  numCNI: string;
 
   @Column() 
   date_inscription: Date;
@@ -25,4 +31,16 @@ export class Candidat {
 
   @Column() 
   nombre_parrainages: number;
+
+  @Column({length: 255, nullable: true})
+  nomPartie : string;
+
+  @Column({length: 255, nullable: true})
+  slogan : string;
+
+  @Column({length: 255, nullable: true})
+  codeAuth : string;
+
+  @Column({length: 255, nullable: true})
+  photo : string;
 }
