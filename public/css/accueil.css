@@ -17,7 +17,6 @@
     padding: 0 20px;
 }
 
-/* Navigation */
 .navbar {
     position: fixed;
     width: 100%;
@@ -79,7 +78,6 @@
     cursor: pointer;
 }
 
-/* Hero Section */
 .hero {
     padding-top: 100px;
     position: relative;
@@ -158,7 +156,6 @@
     transform: translateY(-3px);
 }
 
-/* Timeline Section */
 .timeline-section {
     padding: 5rem 0;
     background: var(--secondary-color);
@@ -217,7 +214,6 @@
     box-shadow: 0 5px 25px rgba(0,0,0,0.1);
 }
 
-/* Animations */
 .animate-on-scroll {
     opacity: 0;
     transform: translateY(30px);
