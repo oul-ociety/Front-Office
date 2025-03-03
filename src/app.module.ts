@@ -14,6 +14,9 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { Electeur } from './entities/Electeur.entity';
 import * as path from 'path';
 import { DashboardModule } from './dashboard/dashboard.module';
+import { ConnexionCandidatController } from './connexion-candidat/connexion-candidat.controller';
+import { ConnexionCandidatService } from './connexion-candidat/connexion-candidat.service';
+import { ConnexionCandidatModule } from './connexion-candidat/connexion-candidat.module';
 
 @Module({
   imports: [
@@ -33,16 +36,17 @@ import { DashboardModule } from './dashboard/dashboard.module';
     DashElecteurModule,
     CandidatElecteurModule,
     ConnexionModule,
+    ConnexionCandidatModule,
   ], 
   controllers: [
     AppController, 
     DashboardController, 
     CandidatController, 
-    ConnexionController,
+    ConnexionController, ConnexionCandidatController,
   ],
   providers: [
     AppService, 
-    CandidatElecteurService,
+    CandidatElecteurService, ConnexionCandidatService,
   ],
 })
 export class AppModule {}
