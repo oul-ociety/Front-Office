@@ -17,6 +17,7 @@ import { DashboardModule } from './dashboard/dashboard.module';
 import { ConnexionCandidatController } from './connexion-candidat/connexion-candidat.controller';
 import { ConnexionCandidatService } from './connexion-candidat/connexion-candidat.service';
 import { ConnexionCandidatModule } from './connexion-candidat/connexion-candidat.module';
+import { PeriodeParrainage } from './entities/ParrainagePeriode.entity';
 
 @Module({
   imports: [
@@ -30,6 +31,7 @@ import { ConnexionCandidatModule } from './connexion-candidat/connexion-candidat
       entities: [path.join(__dirname, 'entities/**/*.entity{.ts,.js}')],
       synchronize: true,
     }),
+    TypeOrmModule.forFeature([PeriodeParrainage]),
     DashboardModule,
     CandidatModule, // Only one import of CandidatModule
     ParrainageModule,

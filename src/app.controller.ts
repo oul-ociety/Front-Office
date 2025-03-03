@@ -7,5 +7,7 @@ export class AppController {
 
   @Get()
   @Render('accueil') // Assurez-vous que le fichier "acceuil.ejs" existe dans "views"
-  home() {}
+  async home() {
+    const variable = await this.appService.getparrainage()
+  }
 }
