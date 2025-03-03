@@ -9,6 +9,21 @@
     <title>Document</title>
 </head>
 <body>
+
+    <nav class="navbar">
+        <div class="container2">
+            <a href="#" class="logo">DGE-SN</a>
+            <button class="menu-toggle">☰</button>
+            <ul class="nav-links">
+                <li><a href="./accueil">Accueil</a></li>
+                <!-- <li><a href="#candidates">Candidats</a></li>
+                <li><a href="#process">Procédure</a></li>
+                <li><a href="#contact">Contact</a></li>-->
+                <li><a href="./connexionCandidat" class="btn-login">Espace Candidat</a></li>
+            </ul>
+        </div>
+    </nav>
+
     
     <div class="container">
 
@@ -42,6 +57,7 @@
             </div>
     </div>
 
+
     <div class="popup2">
         <form action="./connexionCandidat.ejs" class="form4">
             <ion-icon name="close" class="close" onclick="ClosePopup2()"></ion-icon>
@@ -62,5 +78,6 @@
     </div>
     
     <script src="/js/connexion.js"></script>
+    <script src="/js/accueil.js"></script>
 </body>
 </html>

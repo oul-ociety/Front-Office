@@ -35,7 +35,7 @@ export class Electeur {
     numTel: string;
 
     @Column({ length: 255, nullable: true })
-    numEL: string;
+    numEl: string;
 
     @Column({ length: 255, nullable: true })
     numCNI: string;

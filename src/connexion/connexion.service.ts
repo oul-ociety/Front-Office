@@ -11,9 +11,15 @@ export class ConnexionService {
         private readonly ElecteurRepository: Repository<Electeur>
     ){}
 
-    async getCandidat(idElecteur)
-    {
-        return this.ElecteurRepository.find({where: { id_electeur : idElecteur}});
-    }
+    // async getCandidat(idElecteur)
+    // {
+    //     return this.ElecteurRepository.find({where: { id_electeur : idElecteur}});
+    // }
     
+
+    async VerifInfo1(name,numElec,numBur,numCNId){
+        const Electeur = await this.ElecteurRepository.find({where:{numEl:numElec,numCNI:numCNId,nom:name,numBu:numBur}})
+        console.log(Electeur);
+    }
+
 }
