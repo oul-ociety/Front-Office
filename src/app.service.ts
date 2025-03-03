@@ -6,7 +6,7 @@ import { Repository } from 'typeorm';
 @Injectable()
 export class AppService {
     constructor(
-        @InjectRepository(ParrainagePeriode)
+        @InjectRepository(PeriodeParrainage)
         private readonly PeriodeRepository: Repository<PeriodeParrainage>
     ){}async getparrainage (){
         const recup = this.PeriodeRepository.find()
