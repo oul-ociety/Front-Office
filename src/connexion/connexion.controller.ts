@@ -14,15 +14,15 @@ export class ConnexionController {
     async connexion() {}
 
     @Post('CreationCompteElecteur')
-    async getElecteur(@Body() form){
-        // this.form1=form;
-        // console.log(this.form1);
-        const nom = form.nom;
-        const numEl = form.numEl;
-        const numBu = form.numBu;
-        const numCNI = form.numCNI;
-        const test1 = await this.ConnexionService.VerifInfo1(nom,numEl,numBu,numCNI);
-    }
+async getElecteur(@Body() form) {
+    console.log('Form data:', form);
+    const nom = form.nom;
+    const numEl = form.numEl;
+    const numBu = form.numBu;
+    const numCNI = form.numCNI;
+    const test1 = await this.ConnexionService.VerifInfo1(nom, numEl, numBu, numCNI);
+    console.log('Result:', test1);
+}
 
 
 

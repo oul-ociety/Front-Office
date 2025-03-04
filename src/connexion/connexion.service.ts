@@ -17,9 +17,19 @@ export class ConnexionService {
     // }
     
 
-    async VerifInfo1(name,numElec,numBur,numCNId){
-        const Electeur = await this.ElecteurRepository.find({where:{numEl:numElec,numCNI:numCNId,nom:name,numBu:numBur}})
-        console.log(Electeur);
+    async VerifInfo1(name: string, numElec: string, numBur: string, numCNId: string) {
+        try {
+            const query = `
+                SELECT * FROM Electeur
+                WHERE nom = ? AND numEl = ? AND numBu = ? AND numCNI = ?
+            `;
+            const electeur3 = await this.ElecteurRepository.query(query, [name.trim(), numElec.trim(), numBur.trim(), numCNId.trim()]);
+            console.log('Electeur found:', electeur3);
+            return electeur3;
+        } catch (error) {
+            console.error('Erreur lors de la vérification des informations :', error);
+            throw new Error('Une erreur est survenue lors de la vérification des informations.');
+        }
     }
 
 }
