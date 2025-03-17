@@ -23,10 +23,10 @@ import { PeriodeParrainage } from './entities/ParrainagePeriode.entity';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'nozomi.proxy.rlwy.net',
-      port: 35847,
+      host: 'shuttle.proxy.rlwy.net',
+      port: 12168,
       username: 'root',
-      password: 'UrsivvxYZizQgSUwYvWiCJVWZbYiIAVS',
+      password: 'fFEmlCAKjaQIDLJotvoZnQoLdYfsuPxT',
       database: 'railway',
       entities: [path.join(__dirname, 'entities/**/*.entity{.ts,.js}')],
       synchronize: true,
