@@ -43,6 +43,8 @@ export class Electeur {
     @Column({ type: 'tinyint' })
     statut_parrainage: boolean;
 
-    @OneToMany(() => Parrainage, parrainage => parrainage.electeur)
+    @OneToMany(() => Parrainage, (parrainage) => parrainage.electeur, {
+        cascade: true,
+    })
     parrainages: Parrainage[];
 }

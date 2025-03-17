@@ -25,4 +25,5 @@ export class Parrainage {
         default: 'en_attente',
     })
     statut_parrainage: 'validé' | 'en_attente' | 'refusé';
+    
 }
