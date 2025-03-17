@@ -15,7 +15,7 @@
             <a href="#" class="logo">DGE-SN</a>
             <button class="menu-toggle">☰</button>
             <ul class="nav-links">
-                <li><a href="./accueil">Accueil</a></li>
+                <li><a href="/views/accueil">Accueil</a></li>
                 <!-- <li><a href="#candidates">Candidats</a></li>
                 <li><a href="#process">Procédure</a></li>
                 <li><a href="#contact">Contact</a></li>-->
@@ -29,11 +29,11 @@
         <div class="form-container">
             <form action="/connexion/CreationCompteElecteur" class="form1" method="post">
                 <h1>Creation Compte</h1>
-                <input type="number" name="numEl" id="numEl" placeholder="Numéro électeur">
+                <input type="number" name="numElk" id="numEl" placeholder="Numéro électeur">
                 <input type="number" name="numCNI" id="numCNI" placeholder="Numero Carte d'identite nationale">
                 <input type="text" name="nom" id="nom" placeholder="Nom de famille">
                 <input type="number" name="numBu" id="numBu" placeholder="Numero Bureau de vote">
-                <button type="submit">Valider</button>
+                <button type="button" onclick="OpenPopup1()">Valider</button>
             </form>
 
             <form action="/ConnexionElecteur" class="form2">
@@ -75,7 +75,7 @@
             <ion-icon name="close" class="close" onclick="ClosePopup2()"></ion-icon>
             <h1>Infos</h1>
             <h4>Nom : .............................................</h4>
-            <h4>Prenom : Aefefefefergfregrgrfdfg Stgrrererfrgrgrg Jgrgrfrgregregre</h4>
+            <h4>Prenom : .......................................................</h4>
             <h4>Date de naissance : .............................................</h4>
             <h4>Bureau de Vote : .............................................</h4>
             <input type="number" name="codeA" id="codeA" placeholder="code d'authentification">
