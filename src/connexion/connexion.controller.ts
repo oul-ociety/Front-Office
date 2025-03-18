@@ -1,32 +1,31 @@
-import { Body, Controller, Get, Post, Render } from '@nestjs/common';
+import { Controller, Post, Body } from '@nestjs/common';
 import { ConnexionService } from './connexion.service';
 
 @Controller('connexion')
 export class ConnexionController {
-    // public form1:any;
-    constructor(
-        private readonly ConnexionService : ConnexionService,
-    ){}
-    @Get()
+  constructor(private readonly electeurService: ConnexionService) {}
 
-    @Render('connexionElecteur') // Assurez-vous que le fichier "acceuil.ejs" existe dans "views"
+  @Post('creer-compte')
+  async creerCompte(
+    @Body('numEl') numEl: string,
+    @Body('numCNI') numCNI: string,
+    @Body('nom') nom: string,
+    @Body('numBu') numBu: number,
+    @Body('email') email: string,
+    @Body('numTel') numTel: string,
+  ) {
+    const electeur = await this.electeurService.verifierElecteur(numEl, numCNI, nom, numBu);
+    if (!electeur) {
+      return { message: 'Informations d\'électeur non valides.' };
+    }
 
-    async connexion() {}
+    const contactExiste = await this.electeurService.verifierContact(email, numTel);
+    if (contactExiste) {
+      return { message: 'Email ou numéro de téléphone déjà utilisé.' };
+    }
 
-    @Post('CreationCompteElecteur')
-async getElecteur(@Body() form) {
-    console.log('Form data:', form);
-    const nom = form.nom;
-    const numEl = form.numEl;
-    const numBu = form.numBu;
-    const numCNI = form.numCNI;
-    const test1 = await this.ConnexionService.VerifInfo1(nom, numEl, numBu, numCNI);
-    console.log('Result:', test1);
-}
-
-
-
-
-
-
+    const nouveauElecteur = await this.electeurService.creerElecteur(email, numTel);
+    // Envoyer le code d'authentification par email et SMS ici
+    return { message: 'Code d\'authentification envoyé.', electeur: nouveauElecteur };
+  }
 }

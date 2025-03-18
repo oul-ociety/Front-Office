@@ -1,16 +1,20 @@
 import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from 'typeorm';
 import { Parrainage } from './Parrainage.entity';
 
-@Entity('Electeur')
+
+@Entity('electeur')
 export class Electeur {
     @PrimaryGeneratedColumn()
     id_electeur: number;
 
+    @Column({ length: 100, unique: true })
+    email: string;
+
     @Column({ type: 'datetime' })
     date_inscription: Date;
 
-    @Column()
-    codeAuth: number;
+  @Column()
+  codeAuth: number;
 
     @Column({ length: 20, nullable: true })
     numTel: string;
@@ -18,9 +22,6 @@ export class Electeur {
     @Column({ type: 'tinyint' })
     statut_parrainage: boolean;
 
-    // Relation avec la table Parrainage (OneToMany)
-    @OneToMany(() => Parrainage, (parrainage) => parrainage.electeur, {
-        cascade: true, // Permet d'insérer, mettre à jour ou supprimer les parrainages associés à l'électeur
-    })
+    @OneToMany(() => Parrainage, parrainage => parrainage.electeur)
     parrainages: Parrainage[];
 }
