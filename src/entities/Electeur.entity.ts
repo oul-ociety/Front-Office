@@ -13,9 +13,6 @@ export class Electeur {
     @Column({ type: 'datetime' })
     date_inscription: Date;
 
-    @Column({ type: 'tinyint' })
-    statut_validation: boolean;
-
   @Column()
   codeAuth: number;
 
