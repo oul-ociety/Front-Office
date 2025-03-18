@@ -1,0 +1,1179 @@
+Script started on 2025-03-18 10:48:50+01:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="128" LINES="8"]
+Hééé bash le goat a ouvert le terminal
+[?2004h]0;ameth@mail: ~/Front-Office[01;32mameth@mail[00m:[01;34m~/Front-Office[00m$ ls
+[?2004leslint.config.mjs  nest-cli.json  package-lock.json  README.md  [0m[01;34mtest[0m       tsconfig.build.json  [01;34mviews[0m
+LICENSE            package.json   [01;34mpublic[0m             [01;34msrc[0m        today.txt  tsconfig.json
+[?2004h]0;ameth@mail: ~/Front-Office[01;32mameth@mail[00m:[01;34m~/Front-Office[00m$ npm i
+[?2004l[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K[1mnpm[22m [33mwarn[39m [94mdeprecated[39m inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K[1mnpm[22m [33mwarn[39m [94mdeprecated[39m glob@7.2.3: Glob versions prior to v9 are no longer supported
+[1G[0K⠙[1G[0K[1mnpm[22m [33mwarn[39m [94mdeprecated[39m glob@7.2.3: Glob versions prior to v9 are no longer supported
+[1G[0K⠙[1G[0K[1mnpm[22m [33mwarn[39m [94mdeprecated[39m glob@7.2.3: Glob versions prior to v9 are no longer supported
+[1G[0K⠙[1G[0K[1mnpm[22m [33mwarn[39m [94mdeprecated[39m glob@7.2.3: Glob versions prior to v9 are no longer supported
+[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0KScript started on 2025-03-18 10:54:59+01:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="128" LINES="8"]
+Hééé bash le goat a ouvert le terminal
+[?2004h]0;ameth@mail: ~/Front-Office[01;32mameth@mail[00m:[01;34m~/Front-Office[00m$ npm i
+[?2004l[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K
+changed 64 packages, and audited 807 packages in 34s
+[1G[0K⠸[1G[0K
+[1G[0K⠸[1G[0K144 packages are looking for funding
+[1G[0K⠸[1G[0K  run `npm fund` for details
+[1G[0K⠸[1G[0K
+1 [33m[1mmoderate[22m[39m severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+[1G[0K⠸[1G[0K[?2004h]0;ameth@mail: ~/Front-Office[01;32mameth@mail[00m:[01;34m~/Front-Office[00m$ npm[K[K[Knpm run start [K:dev
+[?2004l
+> Front-Office@0.0.1 start:dev
+> nest start --watch
+
+[1G[0K[2J[3J[H[[90m10:57:10[0m] Starting compilation in watch mode...
+
+[[90m10:57:40[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 9559  - [39m18/03/2025 10:57:54 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 9559  - [39m18/03/2025 10:57:54 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +49ms[39m
+[32m[Nest] 9559  - [39m18/03/2025 10:57:54 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +14ms[39m
+[32m[Nest] 9559  - [39m18/03/2025 10:57:54 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +7ms[39m
+[32m[Nest] 9559  - [39m18/03/2025 10:57:54 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +8ms[39m
+[2J[3J[H[[90m11:01:09[0m] File change detected. Starting incremental compilation...
+
+[96msrc/app.module.ts[0m:[93m13[0m:[93m31[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/typeorm' or its corresponding type declarations.
+
+[7m13[0m import { TypeOrmModule } from '@nestjs/typeorm';
+[7m  [0m [91m                              ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/app.service.ts[0m:[93m2[0m:[93m34[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/typeorm' or its corresponding type declarations.
+
+[7m2[0m import { InjectRepository } from '@nestjs/typeorm';
+[7m [0m [91m                                 ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/app.service.ts[0m:[93m4[0m:[93m28[0m - [91merror[0m[90m TS2307: [0mCannot find module 'typeorm' or its corresponding type declarations.
+
+[7m4[0m import { Repository } from 'typeorm';
+[7m [0m [91m                           ~~~~~~~~~[0m
+
+[96msrc/candidat-electeur/candidat-electeur.module.ts[0m:[93m3[0m:[93m31[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/typeorm' or its corresponding type declarations.
+
+[7m3[0m import { TypeOrmModule } from '@nestjs/typeorm';
+[7m [0m [91m                              ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/candidat/candidat.module.ts[0m:[93m2[0m:[93m31[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/typeorm' or its corresponding type declarations.
+
+[7m2[0m import { TypeOrmModule } from '@nestjs/typeorm';
+[7m [0m [91m                              ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/candidat/candidat.service.ts[0m:[93m2[0m:[93m34[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/typeorm' or its corresponding type declarations.
+
+[7m2[0m import { InjectRepository } from '@nestjs/typeorm';
+[7m [0m [91m                                 ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/candidat/candidat.service.ts[0m:[93m3[0m:[93m28[0m - [91merror[0m[90m TS2307: [0mCannot find module 'typeorm' or its corresponding type declarations.
+
+[7m3[0m import { Repository } from 'typeorm';
+[7m [0m [91m                           ~~~~~~~~~[0m
+
+[96msrc/connexion/connexion.module.ts[0m:[93m3[0m:[93m31[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/typeorm' or its corresponding type declarations.
+
+[7m3[0m import { TypeOrmModule } from '@nestjs/typeorm';
+[7m [0m [91m                              ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/connexion/connexion.service.ts[0m:[93m2[0m:[93m34[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/typeorm' or its corresponding type declarations.
+
+[7m2[0m import { InjectRepository } from '@nestjs/typeorm';
+[7m [0m [91m                                 ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/connexion/connexion.service.ts[0m:[93m4[0m:[93m28[0m - [91merror[0m[90m TS2307: [0mCannot find module 'typeorm' or its corresponding type declarations.
+
+[7m4[0m import { Repository } from 'typeorm';
+[7m [0m [91m                           ~~~~~~~~~[0m
+
+[96msrc/dash-electeur/dash-electeur.module.ts[0m:[93m4[0m:[93m31[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/typeorm' or its corresponding type declarations.
+
+[7m4[0m import { TypeOrmModule } from '@nestjs/typeorm';
+[7m [0m [91m                              ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/dash-electeur/dash-electeur.service.ts[0m:[93m2[0m:[93m34[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/typeorm' or its corresponding type declarations.
+
+[7m2[0m import { InjectRepository } from '@nestjs/typeorm';
+[7m [0m [91m                                 ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/dash-electeur/dash-electeur.service.ts[0m:[93m4[0m:[93m28[0m - [91merror[0m[90m TS2307: [0mCannot find module 'typeorm' or its corresponding type declarations.
+
+[7m4[0m import { Repository } from 'typeorm';
+[7m [0m [91m                           ~~~~~~~~~[0m
+
+[96msrc/dash-electeur/dash-electeur.service.ts[0m:[93m5[0m:[93m29[0m - [91merror[0m[90m TS2307: [0mCannot find module 'nodemailer' or its corresponding type declarations.
+
+[7m5[0m import * as nodemailer from 'nodemailer';
+[7m [0m [91m                            ~~~~~~~~~~~~[0m
+
+[96msrc/dashboard/dashboard.module.ts[0m:[93m4[0m:[93m31[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/typeorm' or its corresponding type declarations.
+
+[7m4[0m import { TypeOrmModule } from '@nestjs/typeorm';
+[7m [0m [91m                              ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/dashboard/dashboard.service.ts[0m:[93m2[0m:[93m34[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/typeorm' or its corresponding type declarations.
+
+[7m2[0m import { InjectRepository } from '@nestjs/typeorm';
+[7m [0m [91m                                 ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/dashboard/dashboard.service.ts[0m:[93m5[0m:[93m28[0m - [91merror[0m[90m TS2307: [0mCannot find module 'typeorm' or its corresponding type declarations.
+
+[7m5[0m import { Repository } from 'typeorm';
+[7m [0m [91m                           ~~~~~~~~~[0m
+
+[96msrc/entities/Electeur.entity.ts[0m:[93m1[0m:[93m67[0m - [91merror[0m[90m TS2307: [0mCannot find module 'typeorm' or its corresponding type declarations.
+
+[7m1[0m import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from 'typeorm';
+[7m [0m [91m                                                                  ~~~~~~~~~[0m
+
+[96msrc/entities/Parrainage.entity.ts[0m:[93m1[0m:[93m79[0m - [91merror[0m[90m TS2307: [0mCannot find module 'typeorm' or its corresponding type declarations.
+
+[7m1[0m import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, JoinColumn } from 'typeorm';
+[7m [0m [91m                                                                              ~~~~~~~~~[0m
+
+[96msrc/entities/ParrainagePeriode.entity.ts[0m:[93m1[0m:[93m56[0m - [91merror[0m[90m TS2307: [0mCannot find module 'typeorm' or its corresponding type declarations.
+
+[7m1[0m import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
+[7m [0m [91m                                                       ~~~~~~~~~[0m
+
+[96msrc/entities/candidat.entity.ts[0m:[93m1[0m:[93m67[0m - [91merror[0m[90m TS2307: [0mCannot find module 'typeorm' or its corresponding type declarations.
+
+[7m1[0m import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from 'typeorm';
+[7m [0m [91m                                                                  ~~~~~~~~~[0m
+
+[[90m11:01:11[0m] Found 21 errors. Watching for file changes.
+
+[2J[3J[H[[90m11:01:12[0m] File change detected. Starting incremental compilation...
+
+[96msrc/app.module.ts[0m:[93m13[0m:[93m31[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/typeorm' or its corresponding type declarations.
+
+[7m13[0m import { TypeOrmModule } from '@nestjs/typeorm';
+[7m  [0m [91m                              ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/app.service.ts[0m:[93m2[0m:[93m34[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/typeorm' or its corresponding type declarations.
+
+[7m2[0m import { InjectRepository } from '@nestjs/typeorm';
+[7m [0m [91m                                 ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/app.service.ts[0m:[93m4[0m:[93m28[0m - [91merror[0m[90m TS2307: [0mCannot find module 'typeorm' or its corresponding type declarations.
+
+[7m4[0m import { Repository } from 'typeorm';
+[7m [0m [91m                           ~~~~~~~~~[0m
+
+[96msrc/candidat-electeur/candidat-electeur.module.ts[0m:[93m3[0m:[93m31[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/typeorm' or its corresponding type declarations.
+
+[7m3[0m import { TypeOrmModule } from '@nestjs/typeorm';
+[7m [0m [91m                              ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/candidat/candidat.module.ts[0m:[93m2[0m:[93m31[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/typeorm' or its corresponding type declarations.
+
+[7m2[0m import { TypeOrmModule } from '@nestjs/typeorm';
+[7m [0m [91m                              ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/candidat/candidat.service.ts[0m:[93m2[0m:[93m34[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/typeorm' or its corresponding type declarations.
+
+[7m2[0m import { InjectRepository } from '@nestjs/typeorm';
+[7m [0m [91m                                 ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/candidat/candidat.service.ts[0m:[93m3[0m:[93m28[0m - [91merror[0m[90m TS2307: [0mCannot find module 'typeorm' or its corresponding type declarations.
+
+[7m3[0m import { Repository } from 'typeorm';
+[7m [0m [91m                           ~~~~~~~~~[0m
+
+[96msrc/connexion/connexion.module.ts[0m:[93m3[0m:[93m31[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/typeorm' or its corresponding type declarations.
+
+[7m3[0m import { TypeOrmModule } from '@nestjs/typeorm';
+[7m [0m [91m                              ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/connexion/connexion.service.ts[0m:[93m2[0m:[93m34[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/typeorm' or its corresponding type declarations.
+
+[7m2[0m import { InjectRepository } from '@nestjs/typeorm';
+[7m [0m [91m                                 ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/connexion/connexion.service.ts[0m:[93m4[0m:[93m28[0m - [91merror[0m[90m TS2307: [0mCannot find module 'typeorm' or its corresponding type declarations.
+
+[7m4[0m import { Repository } from 'typeorm';
+[7m [0m [91m                           ~~~~~~~~~[0m
+
+[96msrc/dash-electeur/dash-electeur.module.ts[0m:[93m4[0m:[93m31[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/typeorm' or its corresponding type declarations.
+
+[7m4[0m import { TypeOrmModule } from '@nestjs/typeorm';
+[7m [0m [91m                              ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/dash-electeur/dash-electeur.service.ts[0m:[93m2[0m:[93m34[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/typeorm' or its corresponding type declarations.
+
+[7m2[0m import { InjectRepository } from '@nestjs/typeorm';
+[7m [0m [91m                                 ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/dash-electeur/dash-electeur.service.ts[0m:[93m4[0m:[93m28[0m - [91merror[0m[90m TS2307: [0mCannot find module 'typeorm' or its corresponding type declarations.
+
+[7m4[0m import { Repository } from 'typeorm';
+[7m [0m [91m                           ~~~~~~~~~[0m
+
+[96msrc/dash-electeur/dash-electeur.service.ts[0m:[93m5[0m:[93m29[0m - [91merror[0m[90m TS2307: [0mCannot find module 'nodemailer' or its corresponding type declarations.
+
+[7m5[0m import * as nodemailer from 'nodemailer';
+[7m [0m [91m                            ~~~~~~~~~~~~[0m
+
+[96msrc/dashboard/dashboard.module.ts[0m:[93m4[0m:[93m31[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/typeorm' or its corresponding type declarations.
+
+[7m4[0m import { TypeOrmModule } from '@nestjs/typeorm';
+[7m [0m [91m                              ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/dashboard/dashboard.service.ts[0m:[93m2[0m:[93m34[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/typeorm' or its corresponding type declarations.
+
+[7m2[0m import { InjectRepository } from '@nestjs/typeorm';
+[7m [0m [91m                                 ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/dashboard/dashboard.service.ts[0m:[93m5[0m:[93m28[0m - [91merror[0m[90m TS2307: [0mCannot find module 'typeorm' or its corresponding type declarations.
+
+[7m5[0m import { Repository } from 'typeorm';
+[7m [0m [91m                           ~~~~~~~~~[0m
+
+[96msrc/entities/Electeur.entity.ts[0m:[93m1[0m:[93m67[0m - [91merror[0m[90m TS2307: [0mCannot find module 'typeorm' or its corresponding type declarations.
+
+[7m1[0m import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from 'typeorm';
+[7m [0m [91m                                                                  ~~~~~~~~~[0m
+
+[96msrc/entities/FichierElectoral.entity.ts[0m:[93m1[0m:[93m67[0m - [91merror[0m[90m TS2307: [0mCannot find module 'typeorm' or its corresponding type declarations.
+
+[7m1[0m import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from 'typeorm';
+[7m [0m [91m                                                                  ~~~~~~~~~[0m
+
+[96msrc/entities/Parrainage.entity.ts[0m:[93m1[0m:[93m79[0m - [91merror[0m[90m TS2307: [0mCannot find module 'typeorm' or its corresponding type declarations.
+
+[7m1[0m import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, JoinColumn } from 'typeorm';
+[7m [0m [91m                                                                              ~~~~~~~~~[0m
+
+[96msrc/entities/ParrainagePeriode.entity.ts[0m:[93m1[0m:[93m56[0m - [91merror[0m[90m TS2307: [0mCannot find module 'typeorm' or its corresponding type declarations.
+
+[7m1[0m import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
+[7m [0m [91m                                                       ~~~~~~~~~[0m
+
+[96msrc/entities/candidat.entity.ts[0m:[93m1[0m:[93m67[0m - [91merror[0m[90m TS2307: [0mCannot find module 'typeorm' or its corresponding type declarations.
+
+[7m1[0m import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from 'typeorm';
+[7m [0m [91m                                                                  ~~~~~~~~~[0m
+
+[[90m11:01:12[0m] Found 22 errors. Watching for file changes.
+
+^C
+[?2004h]0;ameth@mail: ~/Front-Office[01;32mameth@mail[00m:[01;34m~/Front-Office[00m$ npm u[Ki
+[?2004l[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K[1mnpm[22m [33mwarn[39m [94mdeprecated[39m glob@7.2.3: Glob versions prior to v9 are no longer supported
+[1G[0K⠙[1G[0K⠹[1G[0K[1mnpm[22m [33mwarn[39m [94mdeprecated[39m rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K[1mnpm[22m [33mwarn[39m [94mdeprecated[39m @humanwhocodes/object-schema@2.0.3: Use @eslint/object-schema instead
+[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K[1mnpm[22m [33mwarn[39m [94mdeprecated[39m @humanwhocodes/config-array@0.11.14: Use @eslint/config-array instead
+[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K[1mnpm[22m [33mwarn[39m [94mdeprecated[39m eslint@8.56.0: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K
+added 99 packages, removed 33 packages, changed 37 packages, and audited 873 packages in 15s
+[1G[0K⠹[1G[0K
+[1G[0K⠹[1G[0K160 packages are looking for funding
+[1G[0K⠹[1G[0K  run `npm fund` for details
+[1G[0K⠹[1G[0K
+1 [33m[1mmoderate[22m[39m severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+[1G[0K⠹[1G[0K[?2004h]0;ameth@mail: ~/Front-Office[01;32mameth@mail[00m:[01;34m~/Front-Office[00m$ npm irun start:dev
+[?2004l
+> Front-Office@0.0.1 start:dev
+> nest start --watch
+
+[1G[0K[2J[3J[H[[90m11:01:48[0m] Starting compilation in watch mode...
+
+[[90m11:01:54[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 10127  - [39m18/03/2025 11:01:58 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 10127  - [39m18/03/2025 11:01:58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +196ms[39m
+[32m[Nest] 10127  - [39m18/03/2025 11:01:58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mParrainageModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 10127  - [39m18/03/2025 11:01:58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConnexionCandidatModule dependencies initialized[39m[38;5;3m +0ms[39m
+[31m[Nest] 10127  - [39m18/03/2025 11:02:05 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (1)...[39m
+QueryFailedError: Cannot add or update a child row: a foreign key constraint fails (`railway`.`#sql-1_1a7`, CONSTRAINT `FK_54ff0ad86cf290be1fbcf20cf2d` FOREIGN KEY (`id_electeur`) REFERENCES `Electeur` (`id_electeur`))
+    at Query.onResult (/home/ameth/Front-Office/node_modules/typeorm/driver/src/driver/mysql/MysqlQueryRunner.ts:246:33)
+    at Query.execute (/home/ameth/Front-Office/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:475:34)
+    at PacketParser.onPacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:93:12)
+    at PacketParser.executeStart (/home/ameth/Front-Office/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[31m[Nest] 10127  - [39m18/03/2025 11:02:14 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (2)...[39m
+QueryFailedError: Cannot add or update a child row: a foreign key constraint fails (`railway`.`#sql-1_1a8`, CONSTRAINT `FK_54ff0ad86cf290be1fbcf20cf2d` FOREIGN KEY (`id_electeur`) REFERENCES `Electeur` (`id_electeur`))
+    at Query.onResult (/home/ameth/Front-Office/node_modules/typeorm/driver/src/driver/mysql/MysqlQueryRunner.ts:246:33)
+    at Query.execute (/home/ameth/Front-Office/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:475:34)
+    at PacketParser.onPacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:93:12)
+    at PacketParser.executeStart (/home/ameth/Front-Office/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[31m[Nest] 10127  - [39m18/03/2025 11:02:22 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (3)...[39m
+QueryFailedError: Cannot add or update a child row: a foreign key constraint fails (`railway`.`#sql-1_1a9`, CONSTRAINT `FK_54ff0ad86cf290be1fbcf20cf2d` FOREIGN KEY (`id_electeur`) REFERENCES `Electeur` (`id_electeur`))
+    at Query.onResult (/home/ameth/Front-Office/node_modules/typeorm/driver/src/driver/mysql/MysqlQueryRunner.ts:246:33)
+    at Query.execute (/home/ameth/Front-Office/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:475:34)
+    at PacketParser.onPacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:93:12)
+    at PacketParser.executeStart (/home/ameth/Front-Office/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[31m[Nest] 10127  - [39m18/03/2025 11:02:31 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (4)...[39m
+QueryFailedError: Cannot add or update a child row: a foreign key constraint fails (`railway`.`#sql-1_1aa`, CONSTRAINT `FK_54ff0ad86cf290be1fbcf20cf2d` FOREIGN KEY (`id_electeur`) REFERENCES `Electeur` (`id_electeur`))
+    at Query.onResult (/home/ameth/Front-Office/node_modules/typeorm/driver/src/driver/mysql/MysqlQueryRunner.ts:246:33)
+    at Query.execute (/home/ameth/Front-Office/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:475:34)
+    at PacketParser.onPacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:93:12)
+    at PacketParser.executeStart (/home/ameth/Front-Office/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[31m[Nest] 10127  - [39m18/03/2025 11:02:39 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (5)...[39m
+QueryFailedError: Cannot add or update a child row: a foreign key constraint fails (`railway`.`#sql-1_1ab`, CONSTRAINT `FK_54ff0ad86cf290be1fbcf20cf2d` FOREIGN KEY (`id_electeur`) REFERENCES `Electeur` (`id_electeur`))
+    at Query.onResult (/home/ameth/Front-Office/node_modules/typeorm/driver/src/driver/mysql/MysqlQueryRunner.ts:246:33)
+    at Query.execute (/home/ameth/Front-Office/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:475:34)
+    at PacketParser.onPacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:93:12)
+    at PacketParser.executeStart (/home/ameth/Front-Office/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[31m[Nest] 10127  - [39m18/03/2025 11:02:47 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (6)...[39m
+QueryFailedError: Cannot add or update a child row: a foreign key constraint fails (`railway`.`#sql-1_1ad`, CONSTRAINT `FK_54ff0ad86cf290be1fbcf20cf2d` FOREIGN KEY (`id_electeur`) REFERENCES `Electeur` (`id_electeur`))
+    at Query.onResult (/home/ameth/Front-Office/node_modules/typeorm/driver/src/driver/mysql/MysqlQueryRunner.ts:246:33)
+    at Query.execute (/home/ameth/Front-Office/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:475:34)
+    at PacketParser.onPacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:93:12)
+    at PacketParser.executeStart (/home/ameth/Front-Office/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[31m[Nest] 10127  - [39m18/03/2025 11:02:55 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (7)...[39m
+QueryFailedError: Cannot add or update a child row: a foreign key constraint fails (`railway`.`#sql-1_1ae`, CONSTRAINT `FK_54ff0ad86cf290be1fbcf20cf2d` FOREIGN KEY (`id_electeur`) REFERENCES `Electeur` (`id_electeur`))
+    at Query.onResult (/home/ameth/Front-Office/node_modules/typeorm/driver/src/driver/mysql/MysqlQueryRunner.ts:246:33)
+    at Query.execute (/home/ameth/Front-Office/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:475:34)
+    at PacketParser.onPacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:93:12)
+    at PacketParser.executeStart (/home/ameth/Front-Office/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[31m[Nest] 10127  - [39m18/03/2025 11:03:03 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (8)...[39m
+QueryFailedError: Cannot add or update a child row: a foreign key constraint fails (`railway`.`#sql-1_1af`, CONSTRAINT `FK_54ff0ad86cf290be1fbcf20cf2d` FOREIGN KEY (`id_electeur`) REFERENCES `Electeur` (`id_electeur`))
+    at Query.onResult (/home/ameth/Front-Office/node_modules/typeorm/driver/src/driver/mysql/MysqlQueryRunner.ts:246:33)
+    at Query.execute (/home/ameth/Front-Office/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:475:34)
+    at PacketParser.onPacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:93:12)
+    at PacketParser.executeStart (/home/ameth/Front-Office/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[31m[Nest] 10127  - [39m18/03/2025 11:03:11 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (9)...[39m
+QueryFailedError: Cannot add or update a child row: a foreign key constraint fails (`railway`.`#sql-1_1b0`, CONSTRAINT `FK_54ff0ad86cf290be1fbcf20cf2d` FOREIGN KEY (`id_electeur`) REFERENCES `Electeur` (`id_electeur`))
+    at Query.onResult (/home/ameth/Front-Office/node_modules/typeorm/driver/src/driver/mysql/MysqlQueryRunner.ts:246:33)
+    at Query.execute (/home/ameth/Front-Office/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:475:34)
+    at PacketParser.onPacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:93:12)
+    at PacketParser.executeStart (/home/ameth/Front-Office/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[31m[Nest] 10127  - [39m18/03/2025 11:03:11 [31m  ERROR[39m [38;5;3m[ExceptionHandler] [39mQueryFailedError: Cannot add or update a child row: a foreign key constraint fails (`railway`.`#sql-1_1b0`, CONSTRAINT `FK_54ff0ad86cf290be1fbcf20cf2d` FOREIGN KEY (`id_electeur`) REFERENCES `Electeur` (`id_electeur`))
+    at Query.onResult [90m(/home/ameth/Front-Office/[39mnode_modules/[4mtypeorm[24m/driver/src/driver/mysql/MysqlQueryRunner.ts:246:33[90m)[39m
+    at Query.execute [90m(/home/ameth/Front-Office/[39mnode_modules/[4mmysql2[24m/lib/commands/command.js:36:14[90m)[39m
+    at PoolConnection.handlePacket [90m(/home/ameth/Front-Office/[39mnode_modules/[4mmysql2[24m/lib/base/connection.js:475:34[90m)[39m
+    at PacketParser.onPacket [90m(/home/ameth/Front-Office/[39mnode_modules/[4mmysql2[24m/lib/base/connection.js:93:12[90m)[39m
+    at PacketParser.executeStart [90m(/home/ameth/Front-Office/[39mnode_modules/[4mmysql2[24m/lib/packet_parser.js:75:16[90m)[39m
+    at Socket.<anonymous> [90m(/home/ameth/Front-Office/[39mnode_modules/[4mmysql2[24m/lib/base/connection.js:100:25[90m)[39m
+[90m    at Socket.emit (node:events:524:28)[39m
+[90m    at addChunk (node:internal/streams/readable:561:12)[39m
+[90m    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)[39m
+[90m    at Readable.push (node:internal/streams/readable:392:5)[39m {
+  query: [32m'ALTER TABLE `Parrainage` ADD CONSTRAINT `FK_54ff0ad86cf290be1fbcf20cf2d` FOREIGN KEY (`id_electeur`) REFERENCES `Electeur`(`id_electeur`) ON DELETE NO ACTION ON UPDATE NO ACTION'[39m,
+  parameters: [90mundefined[39m,
+  driverError: Error: Cannot add or update a child row: a foreign key constraint fails (`railway`.`#sql-1_1b0`, CONSTRAINT `FK_54ff0ad86cf290be1fbcf20cf2d` FOREIGN KEY (`id_electeur`) REFERENCES `Electeur` (`id_electeur`))
+      at Packet.asError [90m(/home/ameth/Front-Office/[39mnode_modules/[4mmysql2[24m/lib/packets/packet.js:740:17[90m)[39m
+      at Query.execute [90m(/home/ameth/Front-Office/[39mnode_modules/[4mmysql2[24m/lib/commands/command.js:29:26[90m)[39m
+      at PoolConnection.handlePacket [90m(/home/ameth/Front-Office/[39mnode_modules/[4mmysql2[24m/lib/base/connection.js:475:34[90m)[39m
+      at PacketParser.onPacket [90m(/home/ameth/Front-Office/[39mnode_modules/[4mmysql2[24m/lib/base/connection.js:93:12[90m)[39m
+      at PacketParser.executeStart [90m(/home/ameth/Front-Office/[39mnode_modules/[4mmysql2[24m/lib/packet_parser.js:75:16[90m)[39m
+      at Socket.<anonymous> [90m(/home/ameth/Front-Office/[39mnode_modules/[4mmysql2[24m/lib/base/connection.js:100:25[90m)[39m
+  [90m    at Socket.emit (node:events:524:28)[39m
+  [90m    at addChunk (node:internal/streams/readable:561:12)[39m
+  [90m    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)[39m
+  [90m    at Readable.push (node:internal/streams/readable:392:5)[39m {
+    code: [32m'ER_NO_REFERENCED_ROW_2'[39m,
+    errno: [33m1452[39m,
+    sqlState: [32m'23000'[39m,
+    sqlMessage: [32m'Cannot add or update a child row: a foreign key constraint fails (`railway`.`#sql-1_1b0`, CONSTRAINT `FK_54ff0ad86cf290be1fbcf20cf2d` FOREIGN KEY (`id_electeur`) REFERENCES `Electeur` (`id_electeur`))'[39m,
+    sql: [32m'ALTER TABLE `Parrainage` ADD CONSTRAINT `FK_54ff0ad86cf290be1fbcf20cf2d` FOREIGN KEY (`id_electeur`) REFERENCES `Electeur`(`id_electeur`) ON DELETE NO ACTION ON UPDATE NO ACTION'[39m
+  },
+  code: [32m'ER_NO_REFERENCED_ROW_2'[39m,
+  errno: [33m1452[39m,
+  sqlState: [32m'23000'[39m,
+  sqlMessage: [32m'Cannot add or update a child row: a foreign key constraint fails (`railway`.`#sql-1_1b0`, CONSTRAINT `FK_54ff0ad86cf290be1fbcf20cf2d` FOREIGN KEY (`id_electeur`) REFERENCES `Electeur` (`id_electeur`))'[39m,
+  sql: [32m'ALTER TABLE `Parrainage` ADD CONSTRAINT `FK_54ff0ad86cf290be1fbcf20cf2d` FOREIGN KEY (`id_electeur`) REFERENCES `Electeur`(`id_electeur`) ON DELETE NO ACTION ON UPDATE NO ACTION'[39m
+}
+^C
+[?2004h]0;ameth@mail: ~/Front-Office[01;32mameth@mail[00m:[01;34m~/Front-Office[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;ameth@mail: ~/Front-Office[01;32mameth@mail[00m:[01;34m~/Front-Office[00m$ npm run start:dev
+[?2004l
+> Front-Office@0.0.1 start:dev
+> nest start --watch
+
+[1G[0K[2J[3J[H[[90m11:16:46[0m] Starting compilation in watch mode...
+
+[[90m11:16:51[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 11422  - [39m18/03/2025 11:16:52 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +154ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mParrainageModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConnexionCandidatModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:57 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +5368ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:57 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:57 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:57 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:57 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:57 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:57 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDashboardModule dependencies initialized[39m[38;5;3m +10ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCandidatModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDashElecteurModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConnexionModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCandidatElecteurModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +29ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +9ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDashboardController {/dashboard/home}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/home, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCandidatController {/dashboard/candidat}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/candidat, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mConnexionController {/connexion}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexion, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexion/CreationCompteElecteur, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mConnexionCandidatController {/connexionCandidat}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexionCandidat, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDashboardController {/dashboard/home}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/home, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCandidatController {/dashboard/candidat}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/candidat, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mParrainageController {/dashboard/parrainage}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/parrainage, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDashElecteurController {/dashboard/electeur}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/electeur, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/electeur/send-code, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/electeur/verify-code, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCandidatElecteurController {/dashboard/electeur/suivi}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/electeur/suivi, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mConnexionController {/connexion}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexion, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexion/CreationCompteElecteur, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mConnexionCandidatController {/connexionCandidat}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexionCandidat, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 11422  - [39m18/03/2025 11:16:58 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +11ms[39m
+Current page: /home
+Parrainage []
+Current page: /home
+Parrainage []
+[2J[3J[H[[90m11:36:26[0m] File change detected. Starting incremental compilation...
+
+[[90m11:36:28[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 12472  - [39m18/03/2025 11:36:37 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:37 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +508ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:37 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mParrainageModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:37 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConnexionCandidatModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +6233ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDashboardModule dependencies initialized[39m[38;5;3m +11ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCandidatModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDashElecteurModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConnexionModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCandidatElecteurModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +28ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +12ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDashboardController {/dashboard/home}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/home, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCandidatController {/dashboard/candidat}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/candidat, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mConnexionController {/connexion}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexion, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexion/CreationCompteElecteur, POST} route[39m[38;5;3m +5ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mConnexionCandidatController {/connexionCandidat}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexionCandidat, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDashboardController {/dashboard/home}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/home, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCandidatController {/dashboard/candidat}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/candidat, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mParrainageController {/dashboard/parrainage}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/parrainage, GET} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDashElecteurController {/dashboard/electeur}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/electeur, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/electeur/send-code, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/electeur/verify-code, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCandidatElecteurController {/dashboard/electeur/suivi}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/electeur/suivi, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mConnexionController {/connexion}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexion, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexion/CreationCompteElecteur, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mConnexionCandidatController {/connexionCandidat}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexionCandidat, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12472  - [39m18/03/2025 11:36:44 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +15ms[39m
+Current page: /home
+Parrainage [
+  Parrainage {
+    id_parrainage: [33m3[39m,
+    date_parrainage: [35m2025-03-17T20:38:09.000Z[39m,
+    statut_parrainage: [32m'en_attente'[39m,
+    candidat: Candidat {
+      id_candidat: [33m3[39m,
+      nombre_parrainages: [33m5[39m,
+      nom: [32m'Dupont'[39m,
+      prenom: [32m'Pierre'[39m,
+      email: [32m'pierre.dupont@example.com'[39m,
+      date_inscription: [35m2025-03-17T20:50:25.000Z[39m,
+      numEl: [1mnull[22m,
+      nomPartie: [32m'PartiA'[39m,
+      slogan: [32m'Pour un avenir meilleur'[39m,
+      URL: [32m'https://partia.com'[39m,
+      ddn: [32m'1980-05-15'[39m,
+      codeAuth: [32m'12345'[39m,
+      troisCouleurs: [32m'Rouge, Blanc, Bleu'[39m,
+      photo: [32m'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTijWm_SXeazdVmUPbnTdll2yy4y8_KovbSuw&s'[39m,
+      statut_candidature: [32m'validé'[39m
+    },
+    electeur: Electeur {
+      id_electeur: [33m1[39m,
+      nom: [32m'Nom1'[39m,
+      prenom: [32m'Prenom1'[39m,
+      email: [32m'email1@example.com'[39m,
+      date_inscription: [35m2025-03-18T09:16:35.000Z[39m,
+      statut_validation: [33m1[39m,
+      ddn: [1mnull[22m,
+      numBu: [1mnull[22m,
+      codeAuth: [33m1234[39m,
+      numTel: [1mnull[22m,
+      numEl: [1mnull[22m,
+      numCNI: [1mnull[22m,
+      statut_parrainage: [33m0[39m
+    }
+  },
+  Parrainage {
+    id_parrainage: [33m5[39m,
+    date_parrainage: [35m2025-03-17T20:38:09.000Z[39m,
+    statut_parrainage: [32m'validé'[39m,
+    candidat: Candidat {
+      id_candidat: [33m3[39m,
+      nombre_parrainages: [33m5[39m,
+      nom: [32m'Dupont'[39m,
+      prenom: [32m'Pierre'[39m,
+      email: [32m'pierre.dupont@example.com'[39m,
+      date_inscription: [35m2025-03-17T20:50:25.000Z[39m,
+      numEl: [1mnull[22m,
+      nomPartie: [32m'PartiA'[39m,
+      slogan: [32m'Pour un avenir meilleur'[39m,
+      URL: [32m'https://partia.com'[39m,
+      ddn: [32m'1980-05-15'[39m,
+      codeAuth: [32m'12345'[39m,
+      troisCouleurs: [32m'Rouge, Blanc, Bleu'[39m,
+      photo: [32m'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTijWm_SXeazdVmUPbnTdll2yy4y8_KovbSuw&s'[39m,
+      statut_candidature: [32m'validé'[39m
+    },
+    electeur: Electeur {
+      id_electeur: [33m1[39m,
+      nom: [32m'Nom1'[39m,
+      prenom: [32m'Prenom1'[39m,
+      email: [32m'email1@example.com'[39m,
+      date_inscription: [35m2025-03-18T09:16:35.000Z[39m,
+      statut_validation: [33m1[39m,
+      ddn: [1mnull[22m,
+      numBu: [1mnull[22m,
+      codeAuth: [33m1234[39m,
+      numTel: [1mnull[22m,
+      numEl: [1mnull[22m,
+      numCNI: [1mnull[22m,
+      statut_parrainage: [33m0[39m
+    }
+  }
+]
+Cand [
+  Candidat {
+    id_candidat: [33m1[39m,
+    nombre_parrainages: [33m0[39m,
+    nom: [32m'Sall'[39m,
+    prenom: [32m'Amadou'[39m,
+    email: [32m'pierre.dupont@example.com'[39m,
+    date_inscription: [35m2025-03-17T20:32:25.000Z[39m,
+    numEl: [1mnull[22m,
+    nomPartie: [32m'PartiA'[39m,
+    slogan: [32m'Pour un avenir meilleur'[39m,
+    URL: [32m'https://partia.com'[39m,
+    ddn: [32m'1980-05-15'[39m,
+    codeAuth: [32m'12345'[39m,
+    troisCouleurs: [32m'Rouge, Blanc, Bleu'[39m,
+    photo: [32m'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTijWm_SXeazdVmUPbnTdll2yy4y8_KovbSuw&s'[39m,
+    statut_candidature: [32m'validé'[39m
+  },
+  Candidat {
+    id_candidat: [33m3[39m,
+    nombre_parrainages: [33m5[39m,
+    nom: [32m'Dupont'[39m,
+    prenom: [32m'Pierre'[39m,
+    email: [32m'pierre.dupont@example.com'[39m,
+    date_inscription: [35m2025-03-17T20:50:25.000Z[39m,
+    numEl: [1mnull[22m,
+    nomPartie: [32m'PartiA'[39m,
+    slogan: [32m'Pour un avenir meilleur'[39m,
+    URL: [32m'https://partia.com'[39m,
+    ddn: [32m'1980-05-15'[39m,
+    codeAuth: [32m'12345'[39m,
+    troisCouleurs: [32m'Rouge, Blanc, Bleu'[39m,
+    photo: [32m'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTijWm_SXeazdVmUPbnTdll2yy4y8_KovbSuw&s'[39m,
+    statut_candidature: [32m'validé'[39m
+  }
+]
+Current page: /home
+Parrainage [
+  Parrainage {
+    id_parrainage: [33m3[39m,
+    date_parrainage: [35m2025-03-17T20:38:09.000Z[39m,
+    statut_parrainage: [32m'en_attente'[39m,
+    candidat: Candidat {
+      id_candidat: [33m3[39m,
+      nombre_parrainages: [33m5[39m,
+      nom: [32m'Dupont'[39m,
+      prenom: [32m'Pierre'[39m,
+      email: [32m'pierre.dupont@example.com'[39m,
+      date_inscription: [35m2025-03-17T20:50:25.000Z[39m,
+      numEl: [1mnull[22m,
+      nomPartie: [32m'PartiA'[39m,
+      slogan: [32m'Pour un avenir meilleur'[39m,
+      URL: [32m'https://partia.com'[39m,
+      ddn: [32m'1980-05-15'[39m,
+      codeAuth: [32m'12345'[39m,
+      troisCouleurs: [32m'Rouge, Blanc, Bleu'[39m,
+      photo: [32m'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTijWm_SXeazdVmUPbnTdll2yy4y8_KovbSuw&s'[39m,
+      statut_candidature: [32m'validé'[39m
+    },
+    electeur: Electeur {
+      id_electeur: [33m1[39m,
+      nom: [32m'Nom1'[39m,
+      prenom: [32m'Prenom1'[39m,
+      email: [32m'email1@example.com'[39m,
+      date_inscription: [35m2025-03-18T09:16:35.000Z[39m,
+      statut_validation: [33m1[39m,
+      ddn: [1mnull[22m,
+      numBu: [1mnull[22m,
+      codeAuth: [33m1234[39m,
+      numTel: [1mnull[22m,
+      numEl: [1mnull[22m,
+      numCNI: [1mnull[22m,
+      statut_parrainage: [33m0[39m
+    }
+  },
+  Parrainage {
+    id_parrainage: [33m5[39m,
+    date_parrainage: [35m2025-03-17T20:38:09.000Z[39m,
+    statut_parrainage: [32m'validé'[39m,
+    candidat: Candidat {
+      id_candidat: [33m3[39m,
+      nombre_parrainages: [33m5[39m,
+      nom: [32m'Dupont'[39m,
+      prenom: [32m'Pierre'[39m,
+      email: [32m'pierre.dupont@example.com'[39m,
+      date_inscription: [35m2025-03-17T20:50:25.000Z[39m,
+      numEl: [1mnull[22m,
+      nomPartie: [32m'PartiA'[39m,
+      slogan: [32m'Pour un avenir meilleur'[39m,
+      URL: [32m'https://partia.com'[39m,
+      ddn: [32m'1980-05-15'[39m,
+      codeAuth: [32m'12345'[39m,
+      troisCouleurs: [32m'Rouge, Blanc, Bleu'[39m,
+      photo: [32m'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTijWm_SXeazdVmUPbnTdll2yy4y8_KovbSuw&s'[39m,
+      statut_candidature: [32m'validé'[39m
+    },
+    electeur: Electeur {
+      id_electeur: [33m1[39m,
+      nom: [32m'Nom1'[39m,
+      prenom: [32m'Prenom1'[39m,
+      email: [32m'email1@example.com'[39m,
+      date_inscription: [35m2025-03-18T09:16:35.000Z[39m,
+      statut_validation: [33m1[39m,
+      ddn: [1mnull[22m,
+      numBu: [1mnull[22m,
+      codeAuth: [33m1234[39m,
+      numTel: [1mnull[22m,
+      numEl: [1mnull[22m,
+      numCNI: [1mnull[22m,
+      statut_parrainage: [33m0[39m
+    }
+  }
+]
+Cand [
+  Candidat {
+    id_candidat: [33m1[39m,
+    nombre_parrainages: [33m0[39m,
+    nom: [32m'Sall'[39m,
+    prenom: [32m'Amadou'[39m,
+    email: [32m'pierre.dupont@example.com'[39m,
+    date_inscription: [35m2025-03-17T20:32:25.000Z[39m,
+    numEl: [1mnull[22m,
+    nomPartie: [32m'PartiA'[39m,
+    slogan: [32m'Pour un avenir meilleur'[39m,
+    URL: [32m'https://partia.com'[39m,
+    ddn: [32m'1980-05-15'[39m,
+    codeAuth: [32m'12345'[39m,
+    troisCouleurs: [32m'Rouge, Blanc, Bleu'[39m,
+    photo: [32m'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTijWm_SXeazdVmUPbnTdll2yy4y8_KovbSuw&s'[39m,
+    statut_candidature: [32m'validé'[39m
+  },
+  Candidat {
+    id_candidat: [33m3[39m,
+    nombre_parrainages: [33m5[39m,
+    nom: [32m'Dupont'[39m,
+    prenom: [32m'Pierre'[39m,
+    email: [32m'pierre.dupont@example.com'[39m,
+    date_inscription: [35m2025-03-17T20:50:25.000Z[39m,
+    numEl: [1mnull[22m,
+    nomPartie: [32m'PartiA'[39m,
+    slogan: [32m'Pour un avenir meilleur'[39m,
+    URL: [32m'https://partia.com'[39m,
+    ddn: [32m'1980-05-15'[39m,
+    codeAuth: [32m'12345'[39m,
+    troisCouleurs: [32m'Rouge, Blanc, Bleu'[39m,
+    photo: [32m'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTijWm_SXeazdVmUPbnTdll2yy4y8_KovbSuw&s'[39m,
+    statut_candidature: [32m'validé'[39m
+  }
+]
+Current page: /home
+Parrainage [
+  Parrainage {
+    id_parrainage: [33m3[39m,
+    date_parrainage: [35m2025-03-17T20:38:09.000Z[39m,
+    statut_parrainage: [32m'en_attente'[39m,
+    candidat: Candidat {
+      id_candidat: [33m3[39m,
+      nombre_parrainages: [33m5[39m,
+      nom: [32m'Dupont'[39m,
+      prenom: [32m'Pierre'[39m,
+      email: [32m'pierre.dupont@example.com'[39m,
+      date_inscription: [35m2025-03-17T20:50:25.000Z[39m,
+      numEl: [1mnull[22m,
+      nomPartie: [32m'PartiA'[39m,
+      slogan: [32m'Pour un avenir meilleur'[39m,
+      URL: [32m'https://partia.com'[39m,
+      ddn: [32m'1980-05-15'[39m,
+      codeAuth: [32m'12345'[39m,
+      troisCouleurs: [32m'Rouge, Blanc, Bleu'[39m,
+      photo: [32m'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTijWm_SXeazdVmUPbnTdll2yy4y8_KovbSuw&s'[39m,
+      statut_candidature: [32m'validé'[39m
+    },
+    electeur: Electeur {
+      id_electeur: [33m1[39m,
+      nom: [32m'Nom1'[39m,
+      prenom: [32m'Prenom1'[39m,
+      email: [32m'email1@example.com'[39m,
+      date_inscription: [35m2025-03-18T09:16:35.000Z[39m,
+      statut_validation: [33m1[39m,
+      ddn: [1mnull[22m,
+      numBu: [1mnull[22m,
+      codeAuth: [33m1234[39m,
+      numTel: [1mnull[22m,
+      numEl: [1mnull[22m,
+      numCNI: [1mnull[22m,
+      statut_parrainage: [33m0[39m
+    }
+  },
+  Parrainage {
+    id_parrainage: [33m5[39m,
+    date_parrainage: [35m2025-03-17T20:38:09.000Z[39m,
+    statut_parrainage: [32m'validé'[39m,
+    candidat: Candidat {
+      id_candidat: [33m3[39m,
+      nombre_parrainages: [33m5[39m,
+      nom: [32m'Dupont'[39m,
+      prenom: [32m'Pierre'[39m,
+      email: [32m'pierre.dupont@example.com'[39m,
+      date_inscription: [35m2025-03-17T20:50:25.000Z[39m,
+      numEl: [1mnull[22m,
+      nomPartie: [32m'PartiA'[39m,
+      slogan: [32m'Pour un avenir meilleur'[39m,
+      URL: [32m'https://partia.com'[39m,
+      ddn: [32m'1980-05-15'[39m,
+      codeAuth: [32m'12345'[39m,
+      troisCouleurs: [32m'Rouge, Blanc, Bleu'[39m,
+      photo: [32m'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTijWm_SXeazdVmUPbnTdll2yy4y8_KovbSuw&s'[39m,
+      statut_candidature: [32m'validé'[39m
+    },
+    electeur: Electeur {
+      id_electeur: [33m1[39m,
+      nom: [32m'Nom1'[39m,
+      prenom: [32m'Prenom1'[39m,
+      email: [32m'email1@example.com'[39m,
+      date_inscription: [35m2025-03-18T09:16:35.000Z[39m,
+      statut_validation: [33m1[39m,
+      ddn: [1mnull[22m,
+      numBu: [1mnull[22m,
+      codeAuth: [33m1234[39m,
+      numTel: [1mnull[22m,
+      numEl: [1mnull[22m,
+      numCNI: [1mnull[22m,
+      statut_parrainage: [33m0[39m
+    }
+  }
+]
+^C
+[?2004h]0;ameth@mail: ~/Front-Office[01;32mameth@mail[00m:[01;34m~/Front-Office[00m$ npm run start:dev
+[?2004l
+> Front-Office@0.0.1 start:dev
+> nest start --watch
+
+[1G[0K[2J[3J[H[[90m12:05:03[0m] Starting compilation in watch mode...
+
+[[90m12:05:10[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 13676  - [39m18/03/2025 12:05:12 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 13676  - [39m18/03/2025 12:05:12 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +158ms[39m
+[32m[Nest] 13676  - [39m18/03/2025 12:05:12 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mParrainageModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 13676  - [39m18/03/2025 12:05:12 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConnexionCandidatModule dependencies initialized[39m[38;5;3m +0ms[39m
+[31m[Nest] 13676  - [39m18/03/2025 12:05:19 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (1)...[39m
+QueryFailedError: Duplicate entry '' for key 'Electeur.IDX_873ce1eb3169c6e413d745b28c'
+    at Query.onResult (/home/ameth/Front-Office/node_modules/typeorm/driver/src/driver/mysql/MysqlQueryRunner.ts:246:33)
+    at Query.execute (/home/ameth/Front-Office/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:475:34)
+    at PacketParser.onPacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:93:12)
+    at PacketParser.executeStart (/home/ameth/Front-Office/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[31m[Nest] 13676  - [39m18/03/2025 12:05:28 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (2)...[39m
+QueryFailedError: Duplicate entry '' for key 'Electeur.IDX_873ce1eb3169c6e413d745b28c'
+    at Query.onResult (/home/ameth/Front-Office/node_modules/typeorm/driver/src/driver/mysql/MysqlQueryRunner.ts:246:33)
+    at Query.execute (/home/ameth/Front-Office/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:475:34)
+    at PacketParser.onPacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:93:12)
+    at PacketParser.executeStart (/home/ameth/Front-Office/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[31m[Nest] 13676  - [39m18/03/2025 12:05:41 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (3)...[39m
+QueryFailedError: Duplicate entry '' for key 'Electeur.IDX_873ce1eb3169c6e413d745b28c'
+    at Query.onResult (/home/ameth/Front-Office/node_modules/typeorm/driver/src/driver/mysql/MysqlQueryRunner.ts:246:33)
+    at Query.execute (/home/ameth/Front-Office/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:475:34)
+    at PacketParser.onPacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:93:12)
+    at PacketParser.executeStart (/home/ameth/Front-Office/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[31m[Nest] 13676  - [39m18/03/2025 12:05:49 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (4)...[39m
+QueryFailedError: Duplicate entry '' for key 'Electeur.IDX_873ce1eb3169c6e413d745b28c'
+    at Query.onResult (/home/ameth/Front-Office/node_modules/typeorm/driver/src/driver/mysql/MysqlQueryRunner.ts:246:33)
+    at Query.execute (/home/ameth/Front-Office/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:475:34)
+    at PacketParser.onPacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:93:12)
+    at PacketParser.executeStart (/home/ameth/Front-Office/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[31m[Nest] 13676  - [39m18/03/2025 12:05:57 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (5)...[39m
+QueryFailedError: Duplicate entry '' for key 'Electeur.IDX_873ce1eb3169c6e413d745b28c'
+    at Query.onResult (/home/ameth/Front-Office/node_modules/typeorm/driver/src/driver/mysql/MysqlQueryRunner.ts:246:33)
+    at Query.execute (/home/ameth/Front-Office/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:475:34)
+    at PacketParser.onPacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:93:12)
+    at PacketParser.executeStart (/home/ameth/Front-Office/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[31m[Nest] 13676  - [39m18/03/2025 12:06:05 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (6)...[39m
+QueryFailedError: Duplicate entry '' for key 'Electeur.IDX_873ce1eb3169c6e413d745b28c'
+    at Query.onResult (/home/ameth/Front-Office/node_modules/typeorm/driver/src/driver/mysql/MysqlQueryRunner.ts:246:33)
+    at Query.execute (/home/ameth/Front-Office/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:475:34)
+    at PacketParser.onPacket (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:93:12)
+    at PacketParser.executeStart (/home/ameth/Front-Office/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/home/ameth/Front-Office/node_modules/mysql2/lib/base/connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+[2J[3J[H[[90m12:06:08[0m] File change detected. Starting incremental compilation...
+
+[[90m12:06:09[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 14015  - [39m18/03/2025 12:06:10 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 14015  - [39m18/03/2025 12:06:11 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +122ms[39m
+[32m[Nest] 14015  - [39m18/03/2025 12:06:11 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mParrainageModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14015  - [39m18/03/2025 12:06:11 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConnexionCandidatModule dependencies initialized[39m[38;5;3m +0ms[39m
+[2J[3J[H[[90m12:06:18[0m] File change detected. Starting incremental compilation...
+
+[[90m12:06:19[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 14106  - [39m18/03/2025 12:06:21 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 14106  - [39m18/03/2025 12:06:21 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +160ms[39m
+[32m[Nest] 14106  - [39m18/03/2025 12:06:21 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mParrainageModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14106  - [39m18/03/2025 12:06:21 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConnexionCandidatModule dependencies initialized[39m[38;5;3m +0ms[39m
+[31m[Nest] 14106  - [39m18/03/2025 12:06:21 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (1)...[39m
+Error: getaddrinfo ENOTFOUND crossover.proxy.rlwy.net
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+[31m[Nest] 14106  - [39m18/03/2025 12:06:24 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (2)...[39m
+Error: getaddrinfo ENOTFOUND crossover.proxy.rlwy.net
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+[31m[Nest] 14106  - [39m18/03/2025 12:06:27 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (3)...[39m
+Error: getaddrinfo ENOTFOUND crossover.proxy.rlwy.net
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+[31m[Nest] 14106  - [39m18/03/2025 12:06:30 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (4)...[39m
+Error: getaddrinfo ENOTFOUND crossover.proxy.rlwy.net
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+[2J[3J[H[[90m12:06:31[0m] File change detected. Starting incremental compilation...
+
+[[90m12:06:31[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 14227  - [39m18/03/2025 12:06:33 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:33 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +148ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:33 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mParrainageModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:33 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConnexionCandidatModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +5909ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDashboardModule dependencies initialized[39m[38;5;3m +10ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCandidatModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDashElecteurModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConnexionModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCandidatElecteurModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +29ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +13ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDashboardController {/dashboard/home}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/home, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCandidatController {/dashboard/candidat}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/candidat, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mConnexionController {/connexion}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexion, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexion/CreationCompteElecteur, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mConnexionCandidatController {/connexionCandidat}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexionCandidat, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDashboardController {/dashboard/home}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/home, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCandidatController {/dashboard/candidat}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/candidat, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mParrainageController {/dashboard/parrainage}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/parrainage, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDashElecteurController {/dashboard/electeur}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/electeur, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/electeur/send-code, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/electeur/verify-code, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCandidatElecteurController {/dashboard/electeur/suivi}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/electeur/suivi, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mConnexionController {/connexion}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexion, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexion/CreationCompteElecteur, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mConnexionCandidatController {/connexionCandidat}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexionCandidat, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 14227  - [39m18/03/2025 12:06:39 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +12ms[39m
+[2J[3J[H[[90m12:09:44[0m] File change detected. Starting incremental compilation...
+
+[[90m12:09:45[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 14554  - [39m18/03/2025 12:09:46 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:46 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +114ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:46 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mParrainageModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:46 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConnexionCandidatModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +6057ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDashboardModule dependencies initialized[39m[38;5;3m +13ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCandidatModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDashElecteurModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConnexionModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCandidatElecteurModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +27ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +8ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDashboardController {/dashboard/home}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/home, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCandidatController {/dashboard/candidat}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/candidat, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mConnexionController {/connexion}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexion, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexion/CreationCompteElecteur, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mConnexionCandidatController {/connexionCandidat}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexionCandidat, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDashboardController {/dashboard/home}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/home, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCandidatController {/dashboard/candidat}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/candidat, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mParrainageController {/dashboard/parrainage}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/parrainage, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDashElecteurController {/dashboard/electeur}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/electeur, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/electeur/send-code, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/electeur/verify-code, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCandidatElecteurController {/dashboard/electeur/suivi}:[39m[38;5;3m +2ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/electeur/suivi, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mConnexionController {/connexion}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexion, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexion/CreationCompteElecteur, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mConnexionCandidatController {/connexionCandidat}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexionCandidat, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14554  - [39m18/03/2025 12:09:52 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +12ms[39m
+[2J[3J[H[[90m12:10:13[0m] File change detected. Starting incremental compilation...
+
+[[90m12:10:13[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 14686  - [39m18/03/2025 12:10:14 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:15 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +107ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:15 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mParrainageModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:15 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConnexionCandidatModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +6271ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDashboardModule dependencies initialized[39m[38;5;3m +5ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCandidatModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDashElecteurModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConnexionModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCandidatElecteurModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +17ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +7ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDashboardController {/dashboard/home}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/home, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCandidatController {/dashboard/candidat}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/candidat, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mConnexionController {/connexion}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexion, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexion/CreationCompteElecteur, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mConnexionCandidatController {/connexionCandidat}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexionCandidat, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDashboardController {/dashboard/home}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/home, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCandidatController {/dashboard/candidat}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/candidat, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mParrainageController {/dashboard/parrainage}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/parrainage, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDashElecteurController {/dashboard/electeur}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/electeur, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/electeur/send-code, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/electeur/verify-code, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCandidatElecteurController {/dashboard/electeur/suivi}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/electeur/suivi, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mConnexionController {/connexion}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexion, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexion/CreationCompteElecteur, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mConnexionCandidatController {/connexionCandidat}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexionCandidat, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 14686  - [39m18/03/2025 12:10:21 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +9ms[39m
+[2J[3J[H[[90m12:11:13[0m] File change detected. Starting incremental compilation...
+
+[[90m12:11:13[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 14823  - [39m18/03/2025 12:11:15 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 14823  - [39m18/03/2025 12:11:15 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +170ms[39m
+[32m[Nest] 14823  - [39m18/03/2025 12:11:15 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mParrainageModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14823  - [39m18/03/2025 12:11:15 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConnexionCandidatModule dependencies initialized[39m[38;5;3m +0ms[39m
+[2J[3J[H[[90m12:11:16[0m] File change detected. Starting incremental compilation...
+
+[[90m12:11:16[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 14877  - [39m18/03/2025 12:11:19 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 14877  - [39m18/03/2025 12:11:19 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +126ms[39m
+[32m[Nest] 14877  - [39m18/03/2025 12:11:19 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mParrainageModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 14877  - [39m18/03/2025 12:11:19 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConnexionCandidatModule dependencies initialized[39m[38;5;3m +0ms[39m
+[2J[3J[H[[90m12:11:19[0m] File change detected. Starting incremental compilation...
+
+[[90m12:11:19[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 14898  - [39m18/03/2025 12:11:21 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:21 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +125ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:21 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mParrainageModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:21 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConnexionCandidatModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +4664ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDashboardModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCandidatModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDashElecteurModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConnexionModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCandidatElecteurModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +18ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +12ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDashboardController {/dashboard/home}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/home, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCandidatController {/dashboard/candidat}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/candidat, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mConnexionController {/connexion}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexion, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexion/CreationCompteElecteur, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mConnexionCandidatController {/connexionCandidat}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/connexionCandidat, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDashboardController {/dashboard/home}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/home, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCandidatController {/dashboard/candidat}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/candidat, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mParrainageController {/dashboard/parrainage}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/parrainage, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDashElecteurController {/dashboard/electeur}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/electeur, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/electeur/send-code, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/electeur/verify-code, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCandidatElecteurController {/dashboard/electeur/suivi}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/dashboard/electeur/suivi, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mConnexionController {/connexion}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 14898  - [39m18/03/2025 12:11:26 [32m    LOG[39m [38;5;3m[RouterExplorer] 

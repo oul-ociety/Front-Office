@@ -1,3 +1,19 @@
-<div>
-    <h1>Suivi parrainage</h1>
+<div class="content-columns">
+    <% Candidat.forEach(candidat => { %>
+      <div class="col">
+        <div class="item"><%= candidat.prenom %> <%= candidat.nom %></div>
+        
+        <!-- Si une photo est disponible, l'afficher, sinon afficher une image par défaut -->
+        <div class="item">
+          <img style="width: 100%" 
+               src="<%= candidat.photo ? candidat.photo : '/images/default-avatar.png' %>" 
+               alt="<%= candidat.prenom %> <%= candidat.nom %>">
+        </div>
+
+        <div class="item"><strong>Parti : </strong><%= candidat.nomPartie %></div>
+        <div class="item"><strong>Slogan : </strong><%= candidat.slogan %></div>
+        <div class="item"><strong>Programme : </strong>Progresser ensemble, lutter contre les inégalités.</div>
+        <div class="item"><strong>Vision : </strong>Un Sénégal uni et solidaire, dans un environnement de paix et de prospérité.</div>
+      </div>
+    <% }) %>
 </div>

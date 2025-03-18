@@ -9,7 +9,8 @@ export class AppService {
         @InjectRepository(PeriodeParrainage)
         private readonly PeriodeRepository: Repository<PeriodeParrainage>
     ){}async getparrainage (){
-        const recup = this.PeriodeRepository.find()
+        const recup = await this.PeriodeRepository.find({where:{statutPeriode:"ouvert"}})
         console.log(recup)
+        return recup
     }
 }

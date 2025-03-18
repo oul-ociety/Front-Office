@@ -2,23 +2,29 @@ import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from 'typeorm';
 import { Parrainage } from './Parrainage.entity';
 
 
-@Entity()
+@Entity('electeur')
 export class Electeur {
-  @PrimaryGeneratedColumn()
-  id_electeur: number;
+    @PrimaryGeneratedColumn()
+    id_electeur: number;
 
-  @Column({ type: 'datetime' })
-  date_inscription: Date;
+    @Column({ length: 100, unique: true })
+    email: string;
+
+    @Column({ type: 'datetime' })
+    date_inscription: Date;
+
+    @Column({ type: 'tinyint' })
+    statut_validation: boolean;
 
   @Column()
   codeAuth: number;
 
-  @Column({ length: 20, nullable: true })
-  numTel: string;
+    @Column({ length: 20, nullable: true })
+    numTel: string;
 
-  @Column({ length: 200, nullable: true })
-  email: string;
+    @Column({ type: 'tinyint' })
+    statut_parrainage: boolean;
 
-  @Column()
-  statut_parrainage: number;
+    @OneToMany(() => Parrainage, parrainage => parrainage.electeur)
+    parrainages: Parrainage[];
 }

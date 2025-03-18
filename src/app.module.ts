@@ -23,17 +23,17 @@ import { PeriodeParrainage } from './entities/ParrainagePeriode.entity';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'roundhouse.proxy.rlwy.net',
-      port: 58775,
+      host: 'crossover.proxy.rlwy.net',
+      port: 29638,
       username: 'root',
-      password: 'FZHyGjvSHsTjOnQRHHpOXYJpzqWXSjDW',
+      password: 'zExKSJjenIwGHTEAUgPwCcTLjfsFzkln',
       database: 'railway',
       entities: [path.join(__dirname, 'entities/**/*.entity{.ts,.js}')],
       synchronize: true,
     }),
     TypeOrmModule.forFeature([PeriodeParrainage]),
     DashboardModule,
-    CandidatModule, // Only one import of CandidatModule
+    CandidatModule, 
     ParrainageModule,
     DashElecteurModule,
     CandidatElecteurModule,

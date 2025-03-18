@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-
     const menuToggle = document.querySelector('.menu-toggle');
     const navLinks = document.querySelector('.nav-links');
 
@@ -7,23 +6,49 @@ document.addEventListener('DOMContentLoaded', function() {
         navLinks.classList.toggle('active');
     });
 
-   
+    // Compteur décroissant
     const countdown = () => {
-        const targetDate = new Date('2025-02-27T00:00:00').getTime();
-        
+        const startDate = new Date('2025-01-01T00:00:00').getTime();
+        const endDate = new Date('2025-01-31T23:59:59').getTime();
+
         const updateTimer = () => {
             const now = new Date().getTime();
-            const distance = targetDate - now;
 
-            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            if (now < startDate) {
+                console.log("La période de parrainage n'a pas encore commencé.");
+                const timeToStart = startDate - now;
+                const days = Math.floor(timeToStart / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((timeToStart % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((timeToStart % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((timeToStart % (1000 * 60)) / 1000);
 
-            document.getElementById('days').innerHTML = days.toString().padStart(2, '0');
-            document.getElementById('hours').innerHTML = hours.toString().padStart(2, '0');
-            document.getElementById('minutes').innerHTML = minutes.toString().padStart(2, '0');
-            document.getElementById('seconds').innerHTML = seconds.toString().padStart(2, '0');
+                document.getElementById('days').textContent = days.toString().padStart(2, '0');
+                document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+                document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+                document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+                return;
+            }
+
+            if (now > endDate) {
+                console.log("La période de parrainage est terminée.");
+                document.getElementById('days').textContent = '00';
+                document.getElementById('hours').textContent = '00';
+                document.getElementById('minutes').textContent = '00';
+                document.getElementById('seconds').textContent = '00';
+                return;
+            }
+
+            const timeLeft = endDate - now;
+
+            const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+            document.getElementById('days').textContent = days.toString().padStart(2, '0');
+            document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+            document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+            document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
         };
 
         updateTimer();
@@ -32,6 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     countdown();
 
+    // Animation au défilement
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -42,6 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
 
+    // Défilement fluide
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();
@@ -55,6 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+    // Animation navbar au scroll
     window.addEventListener('scroll', () => {
         const navbar = document.querySelector('.navbar');
         if (window.scrollY > 50) {

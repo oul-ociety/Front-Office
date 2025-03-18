@@ -42,6 +42,8 @@ export class DashElecteurController {
     const isValid = await this.candidatService.verifyCode(email, code);
 
     if (isValid) {
+      const idElecteur = 1
+      const idCandidat = 1 
       res.json({ success: true, message: 'Code validé avec succès !' });
     } else {
       res.json({ success: false, message: 'Code incorrect.' });

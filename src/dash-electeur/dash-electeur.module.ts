@@ -7,6 +7,7 @@ import { Candidat } from 'src/entities/candidat.entity';
 @Module({
   imports: [TypeOrmModule.forFeature([Candidat])],
   controllers: [DashElecteurController],
-  providers: [DashElecteurService]
+  providers: [DashElecteurService],
+  exports:[DashElecteurService]
 })
 export class DashElecteurModule {}
