@@ -1,15 +1,15 @@
 import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
 
 @Entity()
-export class electeurs {
+export class FichierElecteur {
   @PrimaryGeneratedColumn()
   id: number;
 
   @Column({ length: 20, unique: true })
-  cin: number;
+  cin: string;
 
   @Column({ length: 20, unique: true })
-  numero_electeur: number;
+  numero_electeur: string;
 
   @Column({ length: 100 })
   nom: string;
