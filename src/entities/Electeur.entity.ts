@@ -1,8 +1,7 @@
 import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from 'typeorm';
 import { Parrainage } from './Parrainage.entity';
 
-
-@Entity('electeur')
+@Entity('Electeur')
 export class Electeur {
     @PrimaryGeneratedColumn()
     id_electeur: number;
@@ -43,8 +42,9 @@ export class Electeur {
     @Column({ type: 'tinyint' })
     statut_parrainage: boolean;
 
+    // Relation avec la table Parrainage (OneToMany)
     @OneToMany(() => Parrainage, (parrainage) => parrainage.electeur, {
-        cascade: true,
+        cascade: true, // Permet d'insérer, mettre à jour ou supprimer les parrainages associés à l'électeur
     })
     parrainages: Parrainage[];
 }
