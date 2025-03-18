@@ -1,35 +1,34 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Electeur } from 'src/entities/Electeur.entity';
 import { Repository } from 'typeorm';
+import { Electeur } from '../entities/Electeur.entity';
+import { electeurs } from '../entities/electeurs.entity';
 
 @Injectable()
 export class ConnexionService {
+  constructor(
+    @InjectRepository(electeurs)
+    private fichierElecteurRepository: Repository<electeurs>,
+    @InjectRepository(Electeur)
+    private electeurRepository: Repository<Electeur>,
+  ) {}
 
-    constructor(
-        @InjectRepository(Electeur)
-        private readonly ElecteurRepository: Repository<Electeur>
-    ){}
+  async verifierElecteur(numEl: string, numCNI: string, nom: string, numBu: number): Promise<electeurs | null> {
+    return this.fichierElecteurRepository.findOne({
+      where: { numero_electeur: numEl, cin: numCNI, nom, bureau_vote: numBu },
+    });
+  }
 
-    // async getCandidat(idElecteur)
-    // {
-    //     return this.ElecteurRepository.find({where: { id_electeur : idElecteur}});
-    // }
-    
+  async verifierContact(email: string, numTel: string): Promise<boolean> {
+    const existingElecteur = await this.electeurRepository.findOne({
+      where: [{ email }, { numTel }],
+    });
+    return !!existingElecteur;
+  }
 
-    async VerifInfo1(name: string, numElec: string, numBur: string, numCNId: string) {
-        try {
-            const query = `
-                SELECT * FROM Electeur
-                WHERE nom = ? AND numEl = ? AND numBu = ? AND numCNI = ?
-            `;
-            const electeur3 = await this.ElecteurRepository.query(query, [name.trim(), numElec.trim(), numBur.trim(), numCNId.trim()]);
-            console.log('Electeur found:', electeur3);
-            return electeur3;
-        } catch (error) {
-            console.error('Erreur lors de la vérification des informations :', error);
-            throw new Error('Une erreur est survenue lors de la vérification des informations.');
-        }
-    }
-
+  async creerElecteur(email: string, numTel: string): Promise<Electeur> {
+    const codeAuth = Math.floor(1000 + Math.random() * 9000);
+    const electeur = this.electeurRepository.create({ email, numTel, codeAuth, date_inscription: new Date(), statut_parrainage: 0 });
+    return this.electeurRepository.save(electeur);
+  }
 }
