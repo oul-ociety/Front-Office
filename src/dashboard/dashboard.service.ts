@@ -11,14 +11,13 @@ export class DashboardService {
         private readonly parrainageRepository: Repository<Parrainage>,
     ) {}
 
-    async getParrainage() {
-        // Récupérer les parrainages validés
-        const data = await this.parrainageRepository.find({
-            where: { statut_parrainage: 'validé' },
-            relations: ['candidat', 'electeur'], // Charger les relations avec Candidat et Electeur
-        });
-
-        console.log('Mes Parrainages validés :', data);
-        return data;
+    async getParrainage(candidatId: number) {
+        return await this.parrainageRepository.createQueryBuilder('parrainage')
+            .leftJoinAndSelect('parrainage.candidat', 'candidat') // Charger la relation Candidat
+            .leftJoinAndSelect('parrainage.electeur', 'electeur') // Charger la relation Electeur
+            .where('candidat.id_candidat = :candidatId', { candidatId }) // Filtrer par le candidat // Filtrer les parrainages validés
+            .getMany();
     }
+    
+    
 }
