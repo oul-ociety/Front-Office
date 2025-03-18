@@ -6,10 +6,10 @@ export class electeurs {
   id: number;
 
   @Column({ length: 20, unique: true })
-  cin: string;
+  cin: number;
 
   @Column({ length: 20, unique: true })
-  numero_electeur: string;
+  numero_electeur: number;
 
   @Column({ length: 100 })
   nom: string;

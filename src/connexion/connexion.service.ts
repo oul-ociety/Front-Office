@@ -5,16 +5,16 @@ import { Electeur } from '../entities/Electeur.entity';
 import { electeurs } from '../entities/electeurs.entity';
 
 @Injectable()
-export class ConnexionService {
+export class ElecteurService {
   constructor(
     @InjectRepository(electeurs)
-    private fichierElecteurRepository: Repository<electeurs>,
+    private electeursRepository: Repository<electeurs>,
     @InjectRepository(Electeur)
     private electeurRepository: Repository<Electeur>,
   ) {}
 
-  async verifierElecteur(numEl: string, numCNI: string, nom: string, numBu: number): Promise<electeurs | null> {
-    return this.fichierElecteurRepository.findOne({
+  async verifierElecteur(numEl: number, numCNI: number, nom: string, numBu: number): Promise<electeurs | null> {
+    return this.electeursRepository.findOne({
       where: { numero_electeur: numEl, cin: numCNI, nom, bureau_vote: numBu },
     });
   }

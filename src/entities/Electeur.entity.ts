@@ -13,8 +13,8 @@ export class Electeur {
     @Column({ type: 'datetime' })
     date_inscription: Date;
 
-  @Column()
-  codeAuth: number;
+    @Column()
+    codeAuth: number;
 
     @Column({ length: 20, nullable: true })
     numTel: string;
