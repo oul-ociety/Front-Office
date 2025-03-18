@@ -9,8 +9,7 @@ export class DashElecteurController {
   @Get()
   @Render('dashboardElecteur')
   async home(@Req() req: Request) {
-    const currentPage =
-      req.url.replace('/dashboard/electeur', '') || '/homecandidat';
+    const currentPage = req.url.replace('/dashboard/electeur', '') || '/homecandidat';
     const candidats = await this.candidatService.getAllCandidats();
 
     return {
@@ -24,7 +23,6 @@ export class DashElecteurController {
   async sendCode(@Body() body: any, @Res() res: Response) {
     const { email } = body;
 
-    // Envoyer le code à l'e-mail de l'utilisateur
     const success = await this.candidatService.generateAndSendCode(email);
 
     if (success) {
@@ -36,15 +34,18 @@ export class DashElecteurController {
 
   @Post('verify-code')
   async verifyCode(@Body() body: any, @Res() res: Response) {
-    const { email, code } = body;
+    const { email, code, idElecteur, idCandidat } = body;
 
-    // Vérifier le code saisi
     const isValid = await this.candidatService.verifyCode(email, code);
 
     if (isValid) {
-      const idElecteur = 1
-      const idCandidat = 1 
-      res.json({ success: true, message: 'Code validé avec succès !' });
+      const parrainageSuccess = await this.candidatService.createParrainage(idElecteur, idCandidat);
+
+      if (parrainageSuccess) {
+        res.json({ success: true, message: 'Code validé et parrainage enregistré !' });
+      } else {
+        res.json({ success: false, message: 'Code validé, mais échec lors de ' });
+      }
     } else {
       res.json({ success: false, message: 'Code incorrect.' });
     }
