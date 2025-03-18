@@ -14,6 +14,13 @@ a{
 li{
   list-style: none;
 }
+.item img {
+  max-width: 100%; /* Empêche l'image de dépasser la largeur de l'item */
+  max-height: 100%; /* Empêche l'image de dépasser la hauteur de l'item */
+  object-fit: contain; /* Ajuste l'image sans la déformer */
+  border-radius: 5px; /* Facultatif : suit la forme de l'item */
+}
+
 #nav-list{
   padding-left: 0;
 }
